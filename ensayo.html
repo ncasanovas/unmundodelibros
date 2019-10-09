@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Un Mundo de Libros - Clásicos</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/efectos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquerypp.custom.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+<!-- Contenedor principal con display grid-->
+<div class="grid-container-principal">
+
+      <!--Header-->
+    <div class="grid-item">
+        <header>
+            <div class="grid-container">
+                <div class="grid-item container">
+                        <a href="index.html">
+                            <img class="logo" src="img/logo.png" alt="logo">
+                        </a>
+                </div>
+                <!--Búsqueda-->
+                
+                    <form class="form-inline">
+                        <input class="form-control" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Buscar</button>
+                    </form>
+                
+            </div>
+        </header>
+    </div>
+    
+    <!--Barra de navegación-->
+    <div class="grid-item">
+        <nav>
+            <!--Navbar de Bootstrap-->
+            <div class="container">
+               
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="navbar-nav">
+                                <a class="nav-item nav-link" href="index.html">Inicio</a>
+                                <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Géneros</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="clasicos.html">Clásicos</a>
+                                        <a class="dropdown-item" href="comedia.html">Comedia</a>
+                                        <a class="dropdown-item" href="contemporanea.html">Contemporánea</a>
+                                        <a class="dropdown-item" href="ensayo.html">Ensayo</a>
+                                        <a class="dropdown-item" href="psicologia.html">Psicología</a>
+                                        <a class="dropdown-item" href="terror.html">Terror / Suspenso</a>
+                                    </div>
+                                </li>
+                                <a class="nav-item nav-link" href="recomendaciones.html">Recomendaciones</a>
+                                <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+                        </div>
+                    </nav>
+                
+            </div>
+        </nav>
+    </div>
+
+
+    <!--Tarjetas-->
+    <div class="grid-item">
+        <div class="grid-container-generos">
+             <!--Menu lateral-->
+             <div class="grid-item lateral">
+                    <ul id="lateral">
+                        <h3>Ensayo</h3>
+                        <li><a href="#elsegundosexo">El Segundo Sexo <span class="font-italic">(Simone De Beauvoir)</span></a></li>
+                        <li><a href="#lagenalogiadelamoral">La Genealogía de la Moral<span class="font-italic">(Friedrich Nietzsche)</span></a></li>
+                        <li><a href="#walden">Walden <span class="font-italic">(Henry David Thoreau)</span></a></li>
+                        <li><a href="#cosmos">Cosmos <span class="font-italic">(Carl Sagan)</span></a></li>
+                        <li><a href="#elcerebromusical">El Cerebro Musical <span class="font-italic">(Daniel J. Levitin)</span></a></li>
+                        <li><a href="#elhambre">El Hambre <span class="font-italic">(Martín Caparrós)</span></a></li>
+                        <li><a href="#ensayossobremusica">Ensayos Sobre Música, teatro y Literatura <span class="font-italic">(Thomas Mann)</span></a></li>
+                        <li><a href="#sapiens">Sapiens, De Animales A Dioses <span class="font-italic">(Yuval Noah Harari)</span></a></li>
+                        <li><a href="#endefensadelerror">En Defensa Del Error <span class="font-italic">(Kathryn Schulz)</span></a></li>
+                        <li><a href="#contralainterpretacion">Contra La Interpretación <span class="font-italic">(Susan Sontag)</span></a></li>
+                        
+                    </ul>
+            </div>
+            
+            <div class="grid-item tarjetas">
+                    <h1 class="text-center">Ensayo</h1>
+                    <div id="elsegundosexo" class="card text-white bg-secondary mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Segundo Sexo <span class="font-italic">(Simone De Beauvoir)</span></div>
+                         <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/ensayo/el-segundo-sexo.jpg" alt="el segundo sexo">
+                            <p class="card-text">El segundo sexo no sólo ha nutrido a todo el feminismo que se ha hecho en la segunda mitad del siglo, sino que es el ensayo feminista más importante de la centuria. Todo lo que se ha escrito después en el campo de la teoría feminista ha tenido que contar con esta obra, bien para continuarla en sus planteamientos y seguir desarrollándolos, bien para criticarlos oponiéndose a ellos.El segundo sexo, que es el ensayo de una filósofa existencialista, se encuadra en el ámbito más amplio de un pensamiento ilustrado que toma de la ilustración precisamente sus aspectos positivos, emancipatorios; ante todo, una concepción igualitaria de los seres humanos, según la cual la diferencia de sexos no altera su radical igualdad de condición</p>
+                        </div>
+                    </div>
+                    <div id="lagenalogiadelamoral" class="card text-white bg-secondary mb-3" style="max-width: 30rem;">
+                        <div class="card-header">La Genealogía De La Moral <span class="font-italic">(Friedrich Nietzsche)</span></div>
+                            <div class="card-body">
+                              <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/ensayo/la-genealogia-de-la-moral.jpg" alt="la genealogia de la moral">
+                              <p class="card-text">'La genealogía de la moral' es la obra más sombría y cruel de Friedrich Nietzsche. Su primer tratado se ocupa de la contraposición entre los conceptos de 'bueno' y 'malo', así como de la posterior transformación de su significado por obra de la interpretación judeo-cristiana. El segundo tratado analiza la mala conciencia, cuya causa en épocas primitivas era la culpa entendida no en el sentido de responsabilidad moral, sino como equivalente a deuda material. La última parte, que anuncia el nuevo ideal de superhombre, analiza el significado del ascetismo. </p>
+                        </div>
+                    </div>
+                    <div id="walden" class="card text-white bg-secondary mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Walden <span class="font-italic">(Henry David Thoreau)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/ensayo/walden.jpg" alt="walden">
+                            <p class="card-text"></p>El 4 de julio de 1845, Thoreau se traslada a vivir en la cabaña que él mismo había construido en Walden Pond. Durante dos años escribe allí la obra homónima en la que describe su economía doméstica, sus experimentos en agricultura, sus visitantes y vecinos, las plantas y la vida salvaje. La obra de Thoreau es la historia de un experimento original, sin precedentes literarios. Walden es un modo de escribir, de ponerse a "disposición de las palabras", pero también es una Escritura, una forma de aprender lo que la vida tiene que enseñar. </p>
+                        </div>
+                    </div>
+                    <div id="cosmos" class="card text-white bg-secondary mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Cosmos <span class="font-italic">(Carl Sagan)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/ensayo/cosmos.jpg" alt="cosmos">
+                            <p class="card-text">Este libro, que contiene más de doscientas cincuenta ilustraciones a todo color verdaderamente asombrosas, está basado en un programa de trece capítulos que el profesor Carl Sagan realizó para la televisión. Narrado con habilidad, logra que las ideas científicas sean comprensibles y apasionantes. Nos muestra el universo a través del tiempo, desde el hipotético big-bang original, y del espacio, contemplando los cien mil millones de galaxias. Calcula la posibilidad de vida (cuando lo escribió había más optimismo que hoy sobre la posibilidad de detectar vida extraterrestre) y analiza los distintos ambientes donde podría desarrollarse. </p>
+                        </div>
+                    </div>
+                    <div id="elcerebromusical" class="card text-white bg-secondary mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Cerebro Musical <span class="font-italic">(Daniel J. Levitin)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/ensayo/el-cerebro-musical.jpg" alt="el cerebro musical">
+                            <p class="card-text">Este libro, que contiene más de doscientas cincuenta ilustraciones a todo color verdaderamente asombrosas, está basado en un programa de trece capítulos que el profesor Carl Sagan realizó para la televisión. Narrado con habilidad, logra que las ideas científicas sean comprensibles y apasionantes. Nos muestra el universo a través del tiempo, desde el hipotético big-bang original, y del espacio, contemplando los cien mil millones de galaxias. Calcula la posibilidad de vida (cuando lo escribió había más optimismo que hoy sobre la posibilidad de detectar vida extraterrestre) y analiza los distintos ambientes donde podría desarrollarse. </p>
+                        </div>
+                    </div>
+                    <div id="elhambre" class="card text-white bg-secondary mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Hambre <span class="font-italic">(Martín Caparrós)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/ensayo/el-hambre.jpg" alt="el hambre">
+                            <p class="card-text">Para entenderlo, para contarlo, Martín Caparrós viajó por la India, Bangladesh, Níger, Kenia, Sudán, Madagascar, Argentina, Estados Unidos, España. Allí encontró a quienes, por distintas razones –sequías, pobreza extrema, guerras, marginación–, sufren hambre. El Hambre está hecho de sus historias, y las historias de quienes trabajan en condiciones muy precarias para paliarla, y las de quienes especulan con los alimentos y hambrean a tanta gente. El Hambre intenta, sobre todo, descubrir los mecanismos que hacen que casi mil millones de personas no coman lo que necesitan. El Hambre es un libro incómodo y apasionado, una crónica que piensa y un ensayo que cuenta y un panfleto que denuncia el apremio de una vergüenza sostenida y busca formas de terminar con ella.</p>
+                        </div>
+                    </div>
+                    <div id="ensayossobremusica" class="card text-white bg-secondary mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Ensayos Sobre Música, teatro y Literatura <span class="font-italic">(Thomas Mann)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/ensayo/ensayo-sobre-musica-teatro-y-literatura.jpg" alt="ensayos obre musica, teatro y literatura">
+                            <p class="card-text">El presente volumen reúne una selección de los ensayos de Thomas Mann, sin duda una de las figuras centrales de la literatura del siglo XX. La ingente obra ensayística de este autor -los volúmenes publicados después de su muerte suman más de dos mil páginas- constituye un análisis penetrante e imaginativo de la cultura europea. Alrededor de este tema central se agrupan otros como la relación del artista con la sociedad, la complejidad de la realidad y del tiempo o las seducciones de la espiritualidad, el eros y la muerte. Los textos que aquí presentamos suponen una eficaz aproximación al ideario estético de Mann en campos como la música -la pasión por la fascinante obra de Wagner acompaña mi vida desde que la vislumbré por primera vez, y la literatura. Es en este último apartado donde se encuentran algunos de los ensayos más perceptivos y profundos de su autor, en torno a grandes figuras de la literatura universal: desde un Viaje por mar con Don Quijote- genial comentario de la obra de Cervantes escrito en el barco que le llevaba a Estados Unidos en 1934 huyendo de los nazis- hasta el conmovedor ensayo sobre Chéjov, pasando por Goethe, Zola o la Anna Karenina de Tolstói.</p>
+                        </div>
+                    </div>
+                    <div id="sapiens" class="card text-white bg-secondary mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Sapiens, De Animales A Dioses <span class="font-italic">(Yuval Noah Harari)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/ensayo/sapiens-de-animales-a-dioses.jpg" alt="sapiens">
+                            <p class="card-text">¿Cómo logró nuestra especie imponerse en la lucha por la existencia? ¿Por qué nuestros ancestros recolectores se unieron para crear ciudades y reinos? ¿Cómo llegamos a creer en dioses, en naciones o en los derechos humanos; a confiar en el dinero, en los libros o en las leyes? ¿Cómo acabamos sometidos a la burocracia, a los horarios y al consumismo? ¿Y cómo será el mundo en los milenios venideros? En De animales a dioses, Yuval Noah Harari traza una breve historia de la humanidad, desde los primeros humanos que caminaron sobre la Tierra hasta los radicales y a veces devastadores avances de las tres grandes revoluciones que nuestra especie ha protagonizado: la cognitiva, la agrícola y la científica. A partir de hallazgos de disciplinas tan diversas como la biología, la antropología, la paleontología o la economía, Harari explora cómo las grandes corrientes de la historia han modelado nuestra sociedad, los animales y las plantas que nos rodean e incluso nuestras personalidades. ¿Hemos ganado en felicidad a medida que ha avanzado la historia? ¿Seremos capaces de liberar alguna vez nuestra conducta de la herencia del pasado? ¿Podemos hacer algo para influir en los siglos futuros? Audaz, ambicioso y provocador, este libro cuestiona todo lo que creíamos saber sobre el ser humano: nuestros orígenes, nuestras ideas, nuestras acciones, nuestro poder... y nuestro futuro.</p>
+                        </div>
+                    </div>
+                    <div id="endefensadelerror" class="card text-white bg-secondary mb-3" style="max-width: 30rem;">
+                        <div class="card-header">En Defensa Del Error <span class="font-italic">(Kathryn Schulz)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/ensayo/en-defensa-del-error.jpg" alt="en defensa del error">
+                            <p class="card-text">Con una elocuencia y un humor extraordinarios, la periodista Kathryn Schulz investiga en En defensa del error, los motivos de que nos resulte tan gratificante estar en lo cierto y tan irritante equivocarnos, y cómo esta actitud erosiona nuestras relaciones, bien con familiares, compañeros de trabajo, vecinos e incluso otros países. Al mismo tiempo, nos invita a realizar un recorrido fascinante por la falibilidad humana, desde las convicciones erróneas a los divorcios, de los fallos médicos a las catástrofes marítimas, de las profecías fallidas a los falsos recuerdos, del «¡te lo dije!» a «hemos cometido errores». La autora recurre a pensadores tan diversos como San Agustín, Darwin, Freud, Gertrude Stein, Alan Greenspan o Groucho Marx para proponer una nueva forma de entender las equivocaciones. A su entender, el error es a la vez un don y algo adquirido, algo que puede transformar nuestra visión del mundo, nuestras relaciones y, a un nivel más profundo, a nosotros mismos. </p>
+                        </div>
+                    </div>
+                    <div id="contralainterpretacion" class="card text-white bg-secondary mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Contra La Interpretación <span class="font-italic">(Susan Sontag)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/ensayo/contra-la-interpretacion.jpg" alt="contra la interpretacion">
+                            <p class="card-text">Publicado por primera vez en 1966, este celebrado libro de Susan Sontag, su primera colección de ensayos, se convirtió rápidamente en un clásico contemporáneo que ha tenido una gran influencia en el pensamiento sobre el arte y la cultura contemporáneos, no solo circunscrita a Estados Unidos. Contra la interpretación y otros ensayos incluye textos originales y provocativos sobre Sartre, Simone Weil, Godard, Beckett, la ciencia ficción, el cine, el psicoanálisis y el pensamiento religioso contemporáneo. </p>
+                        </div>
+                    </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+   
+
+
+
+
+  <!--Footer-->
+        
+  <div class="grid-item">
+        <footer>
+            <div class="grid-container piedepagina">
+                
+                    <ul id="piedepagina">
+                        <a href="index.html"><li>INICIO</li></a>
+                        <a href="nosotros.html"><li>NOSOTROS</li></a>
+                        <a href="recomendaciones.html"><li>RECOMENDACIONES</li></a>
+                        <a href="contacto.html"><li>CONTACTO</li></a>
+                    </ul>
+                    <ul id="piedepagina2">
+                            <li>GÉNEROS</li>
+                            <a href="clasicos.html"><li>Clásicos</li></a>
+                            <a href="comedia.html"><li>Comedia</li></a>
+                            <a href="contemporanea.html"><li>Contemporánea</li></a>
+                            <a href="ensayo.html"><li>Ensayo</li></a>
+                            <a href="psicologia.html"><li>Psicología</li></a>
+                            <a href="terror.html"><li>Terror / Suspenso</li></a>
+                    </ul>
+                    <div id="redes">
+                        <ul>
+                            <p>Seguinos en: </p>
+                            <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                        </ul>
+                    </div>
+                    <div id="copyright">
+                        <ul>
+                            <p>Copyright © 2019 Un Mundo De libros</p>
+                        </ul>
+                    </div>
+                    
+            </div>
+        </footer>
+        
+        
+    </div>
+    
+
+</div>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Un Mundo de Libros - Clásicos</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/efectos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquerypp.custom.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+<!-- Contenedor principal con display grid-->
+<div class="grid-container-principal">
+
+      <!--Header-->
+      <div class="grid-item">
+        <header>
+            <div class="grid-container">
+                    <div class="grid-item container">
+                        <a href="index.html">
+                            <img class="logo" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                <!--Búsqueda-->
+                
+                    <form class="form-inline">
+                        <input class="form-control" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Buscar</button>
+                    </form>
+               
+            </div>
+        </header>
+    </div>
+    
+    <!--Barra de navegación-->
+    <div class="grid-item">
+        <nav>
+            <!--Navbar de Bootstrap-->
+            <div class="container">
+               
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="navbar-nav">
+                                <a class="nav-item nav-link" href="index.html">Inicio</a>
+                                <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Géneros</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="clasicos.html">Clásicos</a>
+                                        <a class="dropdown-item" href="comedia.html">Comedia</a>
+                                        <a class="dropdown-item" href="contemporanea.html">Contemporánea</a>
+                                        <a class="dropdown-item" href="ensayo.html">Ensayo</a>
+                                        <a class="dropdown-item" href="psicologia.html">Psicología</a>
+                                        <a class="dropdown-item" href="terror.html">Terror / Suspenso</a>
+                                    </div>
+                                </li>
+                                <a class="nav-item nav-link" href="recomendaciones.html">Recomendaciones</a>
+                                <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+                        </div>
+                    </nav>
+                
+            </div>
+        </nav>
+    </div>
+
+
+    <!--Tarjetas-->
+    <div class="grid-item">
+        <div class="grid-container-generos">
+            <!--Menu lateral-->
+            <div class="grid-item lateral">
+                    <ul id="lateral">
+                        <h3>Contemporánea</h3>
+                        <li><a href="#losdetectivessalvajes">Los Detectives Salvajes <span class="font-italic">(Roberto Bolaño)</span></a></li>
+                        <li><a href="#lacarretera">La Carretera <span class="font-italic">(Cormac McCarthy)</span></a></li>
+                        <li><a href="#elmapayelterritorio">El Mapa Y El Territorio <span class="font-italic">(Michel Houellebecq)</span></a></li>
+                        <li><a href="#cronicadelpajaro">Crónica Del Pájaro Que Da Cuerda Al Mundo <span class="font-italic">(Haruki Murakami)</span></a></li>
+                        <li><a href="#elcuentodelacriada">El Cuento De La Criada <span class="font-italic">(Margaret Atwood)</span></a></li>
+                        <li><a href="#lasasombrosasaventuras">Las asombrosas aventuras de Kavalier y Clay <span class="font-italic">(Michael Chabon)</span></a></li>
+                        <li><a href="#lainsoportablelevedad">La Insoportable Levedad Del Ser<span class="font-italic">(Milan Kundera)</span></a></li>
+                        <li><a href="#lasombradelviento">La Sombra Del Viento <span class="font-italic">(Carlos Ruiz Zafón)</span></a></li>
+                        <li><a href="#lamaravillosavida">La Maravillosa Vida Breve de Oscar Wao <span class="font-italic">(Junot Díaz)</span></a></li>
+                        <li><a href="#ladesaparicion">La Desaparición De Stephanie Maile <span class="font-italic">(Joel Dicker)</span></a></li>
+                        
+                    </ul>
+            </div>
+            
+            <div class="grid-item tarjetas">
+                    <h1 class="text-center">Contemporanéa</h1>
+                    <div id="losdetectivessalvajes" class="card text-white   bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Los Detectives Salvajes  <span class="font-italic">(Roberto Bolaño)</span></div>
+                         <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/contemporanea/los-detectives-salvajes.jpg" alt="los detectives salvajes">
+                            <p class="card-text">Arturo Belano y Ulises Lima, los detectives salvajes, salen a buscar las huellas de Cesárea Tinajero, la misteriosa escritora desaparecida en México en los años inmediatamente posteriores a la Revolución, y esa búsqueda -el viaje y sus consecuencias- se prolonga durante veinte años, desde 1976 hasta 1996, el tiempo canónico de cualquier errancia, bifurcándose a través de múltiples personajes y continentes, en una novela en donde hay de todo: Amores y muertes, asesinatos y fugas turísticas, manicomios y universidades, desapariciones y apariciones.</p>
+                        </div>
+                    </div>
+                    <div id="lacarretera" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">La Carretera  <span class="font-italic">(Cormac McCarthy)</span></div>
+                            <div class="card-body">
+                              <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/contemporanea/la-carretera.jpg" alt="la carretera">
+                              <p class="card-text">Inquietante y lúcida, la última novela del gran Cormac McCarthy tiene como escenario un terreno baldío, un páramo carbonizado que es lo único que queda de lo que alguna vez fue Norteamérica. Ya no existe más vida sobre la tierra que la humana y los hombres se comen los unos a los otros. Un padre y su hijo recorren este mundo apocalíptico sin saber cuál es su destino. El protagonista recuerda los viejos tiempos, pero no sabe con certeza si esa memoria no es más que un mito, una necesidad de crear una historia fundacional que dé sentido a la desolación que le rodea. Una demoledora fábula sobre el futuro del ser humano, destinada a convertirse en la obra maestra del autor.</p>
+                        </div>
+                    </div>
+                    <div id="elmapayelterritorio" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Mapa y El Territorio  <span class="font-italic">(Michel Houellebecq)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/contemporanea/el-mapa-y-el-territorio.jpg" alt="elmapayelterritorio">
+                            <p class="card-text"></p>Si Jed Martin, el protagonista de esta novela, tuviera que contarles la historia, quizá comenzase hablándoles de una avería del calentador, un 15 de diciembre. O de su padre, arquitecto conocido y comprometido, con quien pasó a solas muchas noches navideñas. Evocaría, desde luego, a Olga, una rusa muy bonita, a la que conoce al principio de su carrera en la exposición inaugural de su obra fotográfica, consistente en los mapas de carreteras Michelin. Esto sucede antes de que llegue el éxito mundial con la serie de “oficios”, retratos de personalidades de todos los sectores (entre ellas el escritor Michel Houellebecq), captados en el ejercicio de su profesión. También debería referir cómo ayudó al comisario Jasselin a dilucidar un caso criminal atroz, cuya aterradora puesta en escena dejó una impronta duradera en los equipos de la policía. Al final de su vida, Jed alcanzará cierta serenidad y ya solo emitirá murmullos. El arte, el dinero, el amor, la relación con su padre, la muerte, el trabajo, Francia convertida en un paraíso turístico… son algunos de los temas de esta novela decididamente clásica y abiertamente moderna. </p>
+                        </div>
+                    </div>
+                    <div id="cronicadelpajaro" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Crónica Del Pájaro Que Da Cuerda Al Mundo  <span class="font-italic">(Haruki Murakami)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/contemporanea/cronica-del-pajaro.jpg" alt="cronica del pajaro que da cuerda al mundo">
+                            <p class="card-text">Tooru Okada, un joven japonés que acaba de dejar voluntariamente su trabajo en un bufete de abogados, recibe un buen día la llamada anónima de una mujer. A partir de ese momento la vida de Tooru, que había transcurrido por los cauces de la más absoluta normalidad, empieza a sufrir una extraña transformación. A su alrededor van apareciendo personajes cada vez más extraños, y la realidad, o lo real, va degradándose hasta convertirse en algo fantasmagórico. La percepción del mundo se vuelve mágica, los sueños son realidad y, poco a poco, Tooru Okada deberá resolver los conflictos que, sin sospecharlo siquiera, ha arrastrado a lo largo de toda su vida. Crónica del pájaro que da cuerda al mundo pinta una galería de personajes tan sorprendentes como profundamente reales. El mundo cotidiano del Japón moderno se nos aparece de pronto como algo extrañamente familiar. </p>
+                        </div>
+                    </div>
+                    <div id="elcuentodelacriada" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Cuento De La Criada  <span class="font-italic">(Margaret Atwood)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/contemporanea/el-cuento-de-la-criada.jpg" alt="el cuento de la criada">
+                            <p class="card-text">En la República de Gilead, el cuerpo de Defred sólo sirve para procrear, tal como imponen las férreas normas establecidas por la dictadura puritana que domina el país. Si Defred se rebela —o si, aceptando colaborar a regañadientes, no es capaz de concebir— le espera la muerte en ejecución pública o el destierro a unas Colonias en las que sucumbirá a la polución de los residuos tóxicos. Así, el régimen controla con mano de hierro hasta los más ínfimos detalles de la vida de las mujeres: su alimentación, su indumentaria, incluso su actividad sexual. Pero nadie, ni siquiera un gobierno despótico parapetado tras el supuesto mandato de un dios todopoderoso, puede gobernar el pensamiento de una persona. Y mucho menos su deseo. </p>
+                        </div>
+                    </div>
+                    <div id="lasasombrosasaventuras" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Las asombrosas aventuras de Kavalier y Clay  <span class="font-italic">(Michael Chabon)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/contemporanea/las-asombrosas-aventuras-de-kavalier-y-clay.jpg" alt="Las asombrosas aventuras de Kavalier y Clay">
+                            <p class="card-text">La novela narra la historia de Sam y Joe, dos chicos judíos de Brooklyn que en los primeros días de la Segunda Guerra Mundial se meten en el negocio de los cómics y crean al Escapista, un superhéroe judío que viaja a Europa a luchar contra Hitler. En la alucinante recreación del Nueva York de los años cuarente que sigue a continuación caben el amor, los celos, la bohemia, las reflexiones sobre la creación y toda una serie de elementos que recrean nuevamente el mundo glamouroso de Chabon, un mundo que nuna deja de ser tierno, optimista ni divertido y que sorprendentemente nunca resulta cursi.</p>
+                        </div>
+                    </div>
+                    <div id="lainsoportablelevedad" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">La Insoportable Levedad Del Ser  <span class="font-italic">(Milan Kundera)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/contemporanea/la-insoportable-levedad-del-ser.jpg" alt="la insoportable levedad del ser">
+                            <p class="card-text">Esta es una extraordinaria historia de amor, o sea de celos, de sexo, de traiciones, de muerte y también de las debilidades y paradojas de la vida cotidiana de dos parejas cuyos destinos se entrelazan irremediablemente. Guiado por la asombrosa capacidad de Milan Kundera de contar con cristalina claridad, el lector penetra fascinado en la trama compleja de actos y pensamientos que el autor va tejiendo con diabólica sabiduría en torno a sus personajes. Y el lector no puede sino terminar siendo el mismo personaje, cuando no todos a la vez. Y es que esta novela va dirigida al corazón, pero también a la cabeza del lector. En efecto, los celos de Teresa por Tomás, el terco amor de éste por ella opuesto a su irreflenable deseo de otras mujeres, el idealismo lírico y cursi de Franz, amante de Sabina, y la necesidad de ésta, amante también de Tomás, de perseguir incansable, una libertad que tan sólo la conduce a la insoportable levedad del ser, se convierten de simple anécdota en reflexión sobre problemas filosóficos que, afectan a cada uno directamente, cada día.</p>
+                        </div>
+                    </div>
+                    <div id="lasombradelviento" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">La Sombra Del Viento  <span class="font-italic">(Carlos Ruiz Zafón)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/contemporanea/la-sombra-del-viento.jpg" alt="la sombra del viento">
+                            <p class="card-text">Un amanecer de 1945 un muchacho es conducido por su padre a un misterioso lugar oculto en el corazón de la ciudad vieja: El Cementerio de los Libros Olvidados. Allí, Daniel Sempere encuentra un libro maldito que cambiará el rumbo de su vida y le arrastrará a un laberinto de intrigas y secretos enterrados en el alma oscura de la ciudad.</p>
+                        </div>
+                    </div>
+                    <div id="lamaravillosavida" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">La Maravillosa Vida Breve de Oscar Wao  <span class="font-italic">(Junot Díaz)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/contemporanea/la-maravillosa-vida-breve-de-oscar-wao.jpg" alt="lamaravilloravidabrevedeoscarwao">
+                            <p class="card-text">La vida nunca ha sido fácil para Oscar Wao, un dominicano dulce, obeso y algo desastroso que vive con su madre y su hermana en un gueto de Nueva Jersey. Oscar sueña con convertirse en un J.R.R. Tolkien dominicano y, por encima de todo, con encontrar el amor de su vida. Pero puede que nunca alcance sus metas debido a una extraña maldición presente en su familia desde hace generaciones; enviando a los Wao a prisión, predisponiéndolos a accidentes trágicos y, ante todo, al desamor. </p>
+                        </div>
+                    </div>
+                    <div id="ladesaparicion" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">La Desaparición De Stephanie Mailer  <span class="font-italic">(Joel Dicker)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/contemporanea/la-desaparicion-de-stephanie-mailer.jpg" alt="la desaparicion de stephanie mailer">
+                            <p class="card-text">La noche del 30 de julio de 1994 la apacible población de Orphea, en los Hamptons, asiste a la gran apertura del festival de teatro. Pero el alcalde se retrasa... Mientras tanto, Samuel Paladin recorre las calles vacías buscando a su mujer, hasta hallar su cadáver ante la casa del alcalde. Dentro, toda la familia ha sido asesinada. </p>
+                        </div>
+                    </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+   
+
+
+    <!--Footer-->
+        
+    <div class="grid-item">
+            <footer>
+                <div class="grid-container piedepagina">
+                    
+                        <ul id="piedepagina">
+                            <a href="index.html"><li>INICIO</li></a>
+                            <a href="nosotros.html"><li>NOSOTROS</li></a>
+                            <a href="recomendaciones.html"><li>RECOMENDACIONES</li></a>
+                            <a href="contacto.html"><li>CONTACTO</li></a>
+                        </ul>
+                        <ul id="piedepagina2">
+                                <li>GÉNEROS</li>
+                                <a href="clasicos.html"><li>Clásicos</li></a>
+                                <a href="comedia.html"><li>Comedia</li></a>
+                                <a href="contemporanea.html"><li>Contemporánea</li></a>
+                                <a href="ensayo.html"><li>Ensayo</li></a>
+                                <a href="psicologia.html"><li>Psicología</li></a>
+                                <a href="terror.html"><li>Terror / Suspenso</li></a>
+                        </ul>
+                        <div id="redes">
+                            <ul>
+                                <p>Seguinos en: </p>
+                                <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a>
+                                <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                            </ul>
+                        </div>
+                        <div id="copyright">
+                            <ul>
+                                <p>Copyright © 2019 Un Mundo De libros</p>
+                            </ul>
+                        </div>
+                        
+                </div>
+            </footer>
+            
+            
+    </div>
+    
+
+</div>
+</body>
+</html>

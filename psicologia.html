@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Un Mundo de Libros - Clásicos</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/efectos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquerypp.custom.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+
+<!-- Contenedor principal con display grid-->
+<div class="grid-container-principal">
+
+      <!--Header-->
+      <div class="grid-item">
+        <header>
+            <div class="grid-container">
+                    <div class="grid-item container">
+                        <a href="index.html">
+                             <img class="logo" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                <!--Búsqueda-->
+                
+                    <form class="form-inline">
+                        <input class="form-control" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Buscar</button>
+                    </form>
+               
+            </div>
+        </header>
+    </div>
+    
+    <!--Barra de navegación-->
+    <div class="grid-item">
+        <nav>
+            <!--Navbar de Bootstrap-->
+            <div class="container">
+               
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="navbar-nav">
+                                <a class="nav-item nav-link" href="index.html">Inicio</a>
+                                <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+                                
+                                <li class="nav-item dropdown">
+                                    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Géneros</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="clasicos.html">Clásicos</a>
+                                        <a class="dropdown-item" href="comedia.html">Comedia</a>
+                                        <a class="dropdown-item" href="contemporanea.html">Contemporánea</a>
+                                        <a class="dropdown-item" href="ensayo.html">Ensayo</a>
+                                        <a class="dropdown-item" href="psicologia.html">Psicología</a>
+                                        <a class="dropdown-item" href="terror.html">Terror / Suspenso</a>
+                                    </div>
+                                </li>
+                                <a class="nav-item nav-link" href="recomendaciones.html">Recomendaciones</a>
+                                <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+                        </div>
+                    </nav>
+                
+            </div>
+        </nav>
+    </div>
+
+
+    <!--Tarjetas-->
+    <div class="grid-item">
+        <div class="grid-container-generos">
+            </div>
+            <!--Menu lateral-->
+            <div class="grid-item lateral">
+                    <ul id="lateral">
+                        <h3>Psicología</h3>
+                        <li><a href="#lainterpretacion">La Interpretación De Los Sueños <span class="font-italic">(Sigmund Freud)</span></a></li>
+                        <li><a href="#elartedeamar">El Arte De Amar <span class="font-italic">(Erich Fromm)</span></a></li>
+                        <li><a href="#elhombreenbuscadelsentido">El Hombre En Busca Del Sentido <span class="font-italic">(Viktor Frankl)</span></a></li>
+                        <li><a href="#ellibrorojo">El Libro Rojo <span class="font-italic">(Carl Gustav Jung)</span></a></li>
+                        <li><a href="#tuszonaserroneas">Tus Zonas Erróneas <span class="font-italic">(Wayne Dyer)</span></a></li>
+                        <li><a href="#elhombrequeconfundio">El Hombre Que Confundió A Su Mujer Con Un Sombrero <span class="font-italic">(Oliver Sacks)</span></a></li>
+                        <li><a href="#obedienciaalaautoridad">Obediencia A La Autoridad <span class="font-italic">(Stanley Milgram)</span></a></li>
+                        
+                        
+                    </ul>
+            </div>
+            
+            <div class="grid-item tarjetas">
+                    <h1 class="text-center">Psicología</h1>
+                    <div id="lainterpretacion" class="card text-white bg-success mb-3" style="max-width: 30rem;">
+                        <div class="card-header">La Interpretación De Los Sueños <span class="font-italic">(Sigmund Freud)</span></div>
+                         <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/psicologia/la-interpretacion-de-los-suenios.jpg" alt="la interpretacion de los suenios">
+                            <p class="card-text">En 1899 Freud publicaba por primera vez la obra que sería considerada como la más importante, representativa e influyente de su toda su producción: La interpretación de los sueños. Con ella daba inicio a una nueva disciplina, el psicoanálisis, que proponía el modo a través del cual acceder al inconsciente tomando elementos de las experiencias vividas. Por primera vez se introdujo el concepto del Yo y los sueños fueron objeto de un estudio científico. Gracias al método propuesto por Freud, pudieron interpretarse los contenidos de aquellos, generalmente como la representación de deseos latentes.</p>
+                        </div>
+                    </div>
+                    <div id="elartedeamar" class="card text-white bg-success mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Arte De Amar <span class="font-italic">(Erich Fromm)</span></div>
+                            <div class="card-body">
+                              <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/psicologia/el-arte-de-amar.jpg" alt="el arte de amar">
+                              <p class="card-text">El arte de amar es una obra con la que Erich Fromm ha ayudado a varias generaciones a reflexionar sobre el amor y a responder a algunas preguntas aparentemente sencillas: ¿qué significa amar? ¿Cómo desprendernos de nosotros mismos para experimentar este sentimiento…? Fromm nos explica que el amor no es sólo una relación personal, sino un rasgo de madurez que se manifiesta en diversas formas: amor erótico, amor fraternal, amor filial, amor a uno mismo…</p>
+                        </div>
+                    </div>
+                    <div id="elhombreenbuscadelsentido" class="card text-white bg-success mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Hombre En Busca Del Sentido <span class="font-italic">(Viktor Frankl)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/psicologia/el-hombre-en-busca-del-sentido.jpg" alt="el hombre en busca del sentido">
+                            <p class="card-text"></p>Este libro se centra en varios hallazgos cruciales del doctor Frankl que ponen de manifiesto nuestro deseo inconsciente de descubrir un sentido definitivo a la vida, tanto si deriva de una fuente espiritual como si proviene de otro tipo de inspiración o influencia. Se trata de un tema de especial relevancia, sobre todo teniendo en cuenta que la sensación de que nuestra vida carece de un significado auténtico ha penetrado considerablemente en los cimientos de la sociedad contemporánea. Como demuestran tanto el caso del adolescente que sufre ante la inseguridad y la duda como el del anciano que padece aislamiento y rechazo, lo cierto es que la cultura actual parece definitivamente sumida en la vulnerabilidad y la desesperación. </p>
+                        </div>
+                    </div>
+                    <div id="ellibrorojo" class="card text-white bg-success mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El libro Rojo <span class="font-italic">(Carl Gustav Jung)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/psicologia/el-libro-rojo.gif" alt="el libro rojo">
+                            <p class="card-text">El Libro Rojo" o "Nuevo Libro" fué escrito por Jung durante los años 1913 y 1916 y contiene el exhaustivo trabajo que Jung hizo con la enorme inundación de contenidos inconscientes que asomaron durante una severa crisis personal que sufrió después de su ruptura con Freud. Es posiblemente la más importante obra inédita, hasta ahora, de la historia de la psicología. </p>
+                        </div>
+                    </div>
+                    <div id="tuszonaserroneas" class="card text-white bg-success mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Tus Zonas Erróneas <span class="font-italic">(Wayne Dyer)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/psicologia/tus-zonas-erroneas.jpg" alt="tus zonas erroneas">
+                            <p class="card-text">Tienes a veces la sensación de estar desbordado por la existencia? ¿Paralizado por compromisos -afectivos, laborales...-que ya no te satisfacen? ¿Dominado por complejos de culpa o inseguridad? No proyectes tu insatisfacción en otros, la causa está en ti, en las zonas erróneas de tu personalidad, que te bloquean e impiden que te realices. Esta obra, quizá la más leída y respetada de toda la literatura de autoayuda, muestra dónde se encuentran, qué significan y cómo superarlas. Todo ello contado con la amenidad y sencillez de quien sabe que puede cooperar en la mejora de la vida de los otros. Saborea este libro y no te niegues la posibilidad de ser un poco mejor y mucho más feliz. </p>
+                        </div>
+                    </div>
+                    <div id="elhombrequeconfundio" class="card text-white bg-success mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Hombre Que Confundió A Su Mujer Con Un Sombrero <span class="font-italic">(Oliver Sacks)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/psicologia/el-nombre-que-confundio-a-su-mujer.jpg" alt="el hombre que confundio a su mujer con un sombrero">
+                            <p class="card-text">En este libro, Oliver Sacks narra veinte historiales médicos de pacientes perdidos en el mundo extraño y aparentemente irremediable de las enfermedades neurológicas. Se trata de casos de individuos, aquejados por inauditas aberraciones de la percepción que han perdido la memoria, y con ella, la mayor parte de su pasado; que son incapaces de reconocer a sus familiares o los objetos cotidianos; que han sido descartados como retrasados mentales y que, sin embargo, poseen insólitos dones artísticos o científicos. Por extraños que parezcan estos casos, el doctor Sacks los relata con pasión humana y gran talento literario. Son estudios que nos permiten acceder al universo de los enfermos nerviosos y comprender su situación frente a las adversidades. Como gran médico, Oliver Sacks nunca pierde de vista el cometido final de la medicina: «el sujeto humano que sufre y lucha».</p>
+                        </div>
+                    </div>
+                    <div id="obedienciaalaautoridad" class="card text-white bg-success mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Obediencia A La Autoridad <span class="font-italic">(Stanley Milgram)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/psicologia/obediencia-a-la-autoridad.jpg" alt="obediencia a la autoridad">
+                            <p class="card-text">En la década de 1960, tres meses después de que Adolf Eichmann fuera sentenciado a muerte en Jerusalén por crímenes contra la humanidad durante el régimen nazi, el psicólogo Stanley Milgram llevó a cabo una serie de experimentos que cambiaron para siempre nuestra percepción de la moral. Muy controvertidos en su momento, pero ahora fuertemente reivindicados por la comunidad científica, estos experimentos trataban de determinar si Eichmann y su millón de cómplices en el Holocausto solo estaban siguiendo órdenes, y hasta qué punto la gente obedece mandatos sin importar sus consecuencias. Obediencia a la autoridad ayuda a explicar cómo la gente común puede cometer el más horrible de los crímenes, ausentándose su sentido de la responsabilidad, si se encuentra bajo la influencia de una fuerte autoridad.</p>
+                        </div>
+                    </div>
+                   
+                   
+            
+        </div>
+
+    </div>
+
+   
+
+
+
+
+    <!--Footer-->
+            
+    <div class="grid-item">
+            <footer>
+                <div class="grid-container piedepagina">
+                    
+                        <ul id="piedepagina">
+                            <a href="index.html"><li>INICIO</li></a>
+                            <a href="nosotros.html"><li>NOSOTROS</li></a>
+                            <a href="recomendaciones.html"><li>RECOMENDACIONES</li></a>
+                            <a href="contacto.html"><li>CONTACTO</li></a>
+                        </ul>
+                        <ul id="piedepagina2">
+                                <li>GÉNEROS</li>
+                                <a href="clasicos.html"><li>Clásicos</li></a>
+                                <a href="comedia.html"><li>Comedia</li></a>
+                                <a href="contemporanea.html"><li>Contemporánea</li></a>
+                                <a href="ensayo.html"><li>Ensayo</li></a>
+                                <a href="psicologia.html"><li>Psicología</li></a>
+                                <a href="terror.html"><li>Terror / Suspenso</li></a>
+                        </ul>
+                        <div id="redes">
+                            <ul>
+                                <p>Seguinos en: </p>
+                                <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a>
+                                <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                            </ul>
+                        </div>
+                        <div id="copyright">
+                            <ul>
+                                <p>Copyright © 2019 Un Mundo De libros</p>
+                            </ul>
+                        </div>
+                        
+                </div>
+            </footer>
+            
+            
+    </div>
+    
+
+</div>
+</body>
+</html>

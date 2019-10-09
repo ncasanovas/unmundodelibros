@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Un Mundo de Libros</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/efectos.js"></script>
+    <script src="js/jquerypp.custom.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+<!-- Contenedor principal con display grid-->
+<div class="grid-container-principal">
+
+
+        <!--Header-->
+        <div class="grid-item">
+            <header>
+                <div class="grid-container">
+                        <div class="grid-item">
+                            <a href="index.html">
+                                <img class="logo" src="img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        
+                    <!--Búsqueda-->
+                        <form class="form-inline">
+                            <input class="form-control" type="search" placeholder="Buscar..." aria-label="Search">
+                            <button class="btn btn-dark" type="submit">Buscar</button>
+                        </form>
+                    
+                </div>
+            </header>
+        </div>
+        
+        <!--Barra de navegación-->
+        <div class="grid-item">
+            <nav>
+                <!--Navbar de Bootstrap-->
+                <div class="container">
+                   
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="navbar-nav">
+                                    <a class="nav-item nav-link active" href="index.html">Inicio</a>
+                                    <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Géneros</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="clasicos.html">Clásicos</a>
+                                            <a class="dropdown-item" href="comedia.html">Comedia</a>
+                                            <a class="dropdown-item" href="contemporanea.html">Contemporánea</a>
+                                            <a class="dropdown-item" href="ensayo.html">Ensayo</a>
+                                            <a class="dropdown-item" href="psicologia.html">Psicología</a>
+                                            <a class="dropdown-item" href="terror.html">Terror / Suspenso</a>
+                                        </div>
+                                    </li>
+                                    <a class="nav-item nav-link" href="recomendaciones.html">Recomendaciones</a>
+                                    <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+                            </div>
+                        </nav>
+                    
+                </div>
+            </nav>
+        </div>
+
+        <!--Bienvenida-->
+        <div class="grid-item">
+            <section class="sectionFotos">
+                      
+                <div class="bienvenidos">
+                    <div class="texto-bienvenida text-center">
+                        <div><h1 class="mayor">UN MUNDO DE LIBROS</h1></div>
+                        <div><h2>¡Bienvenidos!</h2></div>
+                        <div><p class="text-center parrafoBienvenida">Aquí te encontrarás con una selección de
+                        los mejores libros de distintos géneros.</p></div>
+                    </div>
+                </div>
+                
+            </section>
+        </div>
+
+        <!--Géneros-->
+        <div class="grid-item">
+            <section class="sectionGeneros">
+                <div class="container-fluid">
+                    <h1 class="text-center mb-3">GÉNEROS</h1>
+                    <div class="myCarousel carousel slide" data-ride="carousel">
+                      <div class="carousel-inner row w-100 mx-auto">
+                            <div class="carousel-item col-md-4 active">
+                                <a href="clasicos.html">
+                                    <div class="card text-white bg-danger" style="max-width: 18rem;">
+                                        <div class="card-header">Clásicos</div>
+                                        <div class="card-body">
+                                            <img class="card-img-bottom img-fluid img-responsive" src="img/clasicos.png" alt="clasicos">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item col-md-4">
+                                <a href="terror.html">
+                                    <div class="card text-white bg-dark" style="max-width: 18rem;">
+                                        <div class="card-header">Terror</div>
+                                        <div class="card-body">
+                                            <img class="card-img-bottom img-fluid img-responsive" src="img/terror.jpg" alt="terror">
+                                        </div>
+                                    </div>
+                                </a>    
+                            </div>
+                            <div class="carousel-item col-md-4">
+                                <a href="comedia.html">
+                                    <div class="card text-white bg-warning" style="max-width: 18rem;">
+                                        <div class="card-header">Comedia</div>
+                                        <div class="card-body">
+                                            <img class="card-img-bottom img-fluid img-responsive" src="img/comedia.jpeg" alt="comedia">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-item col-md-4">
+                                <a href="ensayo.html">
+                                    <div class="card text-white bg-secondary" style="max-width: 18rem;">
+                                        <div class="card-header">Ensayo</div>
+                                        <div class="card-body">
+                                            <img class="card-img-bottom img-fluid" src="img/ensayo.jpg" alt="clasicos">
+                                        </div>
+                                    </div>
+                                </a>    
+                            </div>
+                            <div class="carousel-item col-md-4">
+                                <a href="psicologia.html">
+                                    <div class="card text-white bg-success" style="max-width: 18rem;">
+                                        <div class="card-header">Psicología</div>
+                                        <div class="card-body">
+                                                <img class="card-img-bottom img-fluid" src="img/psicologia.jpg" alt="terror">
+                                        </div>
+                                    </div>
+                                </a>        
+                            </div>
+                            <div class="carousel-item col-md-4">
+                                <a href="contemporanea.html">
+                                    <div class="card text-white bg-info" style="max-width: 18rem;">
+                                        <div class="card-header">Contemporánea</div>
+                                        <div class="card-body">
+                                                <img class="card-img-bottom img-fluid" src="img/contemporanea.jpg" alt="terror">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                      </div>
+                      <a class="carousel-control-prev" href=".myCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href=".myCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                </div>
+            
+            </section>
+        </div>
+
+
+
+        
+
+
+        <!--Recomendaciones-->
+        <div class="grid-item">
+            <section class="sectionRecomendaciones">
+                <div class="container-fluid">
+                    <h1 class="text-center mb-3">RECOMENDACIONES</h1>
+                    <div class="myCarousel carousel slide" data-ride="carousel">
+                      <div class="carousel-inner row w-100 mx-auto">
+                        <div class="carousel-item col-md-4 active">
+                            <a href="recomendaciones.html#1984">
+                                <div class="card text-white bg-danger" style="max-width: 18rem;">
+                                    <div class="card-header">1984 <span class="font-italic">(George Orwell)</span></div>
+                                    <div class="card-body">
+                                        <img class="card-img-bottom img-fluid img-responsive" src="img/recomendados/1984.jpg" alt="1984">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item col-md-4">
+                            <a href="recomendaciones.html#lamujerrota">
+                                <div class="card text-white bg-dark" style="max-width: 18rem;">
+                                    <div class="card-header">La Mujer Rota <span class="font-italic">(Simone De Beauvoir)</span></div>
+                                    <div class="card-body">
+                                        <img class="card-img-bottom img-fluid img-responsive" src="img/recomendados/la-mujer-rota.jpg" alt="la mujer rota">
+                                    </div>
+                                </div>
+                            </a>    
+                        </div>
+                        <div class="carousel-item col-md-4">
+                            <a href="recomendaciones.html#cien-anios-de-soledad">
+                                <div class="card text-white bg-warning" style="max-width: 18rem;">
+                                    <div class="card-header">Cien Años de Soledad <span class="font-italic">(Gabriel García Márquez)</span></div>
+                                    <div class="card-body">
+                                        <img class="card-img-bottom img-fluid img-responsive" src="img/recomendados/cien-anios-de-soledad.jpg" alt="cien anios de soledad">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item col-md-4">
+                            <a href="recomendaciones.html#netochka">
+                                <div class="card text-white bg-secondary" style="max-width: 18rem;">
+                                    <div class="card-header">Netochka Nezvanova <span class="font-italic">(Fiodor Dostoievski)</span></div>
+                                    <div class="card-body">
+                                        <img class="card-img-bottom img-fluid" src="img/recomendados/netochka-nezvanova.jpg" alt="netochka nezvanova">
+                                    </div>
+                                </div>
+                            </a>    
+                        </div>
+                        <div class="carousel-item col-md-4">
+                            <a href="recomendaciones.html#sobreheroes">
+                                <div class="card text-white bg-success" style="max-width: 18rem;">
+                                    <div class="card-header">Sobre Héroes Y Tumbas <span class="font-italic">(Ernesto Sábato)</span></div>
+                                    <div class="card-body">
+                                            <img class="card-img-bottom img-fluid" src="img/recomendados/sobre-heroes-y-tumbas_ernesto-sabato.jpg" alt="sobre heroes y tumbas">
+                                    </div>
+                                </div>
+                            </a>        
+                        </div>
+                        
+                        
+                      </div>
+                      <a class="carousel-control-prev" href=".myCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href=".myCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  </div>
+            </section>
+        </div>
+        
+        <!--Footer-->
+        <div class="grid-item">
+                <footer>
+                    <div class="grid-container piedepagina">
+                        
+                            <ul id="piedepagina">
+                                <a href="index.html"><li>INICIO</li></a>
+                                <a href="nosotros.html"><li>NOSOTROS</li></a>
+                                <a href="recomendaciones.html"><li>RECOMENDACIONES</li></a>
+                                <a href="contacto.html"><li>CONTACTO</li></a>
+                            </ul>
+                            <ul id="piedepagina2">
+                                    <li>GÉNEROS</li>
+                                    <a href="clasicos.html"><li>Clásicos</li></a>
+                                    <a href="comedia.html"><li>Comedia</li></a>
+                                    <a href="contemporanea.html"><li>Contemporánea</li></a>
+                                    <a href="ensayo.html"><li>Ensayo</li></a>
+                                    <a href="psicologia.html"><li>Psicología</li></a>
+                                    <a href="terror.html"><li>Terror / Suspenso</li></a>
+                            </ul>
+                            <div id="redes">
+                                <ul>
+                                <p>Seguinos en: </p>
+                                <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a>
+                                <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                            </ul>
+                            </div>
+                            <div id="copyright">
+                                <ul>
+                                <p>Copyright © 2019 Un Mundo De libros</p>
+                            </ul>
+                            </div>
+                            
+                    </div>
+                </footer>
+        </div>
+                
+        
+            
+        
+        
+        
+        
+
+</div>
+    
+    
+    
+
+</body>
+</html>

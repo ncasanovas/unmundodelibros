@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Un Mundo de Libros - Clásicos</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/efectos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquerypp.custom.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    
+<!-- Contenedor principal con display grid-->
+<div class="grid-container-principal">
+
+      <!--Header-->
+      <div class="grid-item">
+        <header>
+            <div class="grid-container">
+                    <div class="grid-item container">
+                        <a href="index.html">
+                            <img class="logo" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                <!--Búsqueda-->
+                
+                    <form class="form-inline">
+                        <input class="form-control" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Buscar</button>
+                    </form>
+               
+            </div>
+        </header>
+    </div>
+    
+    <!--Barra de navegación-->
+    <div class="grid-item">
+        <nav>
+            <!--Navbar de Bootstrap-->
+            <div class="container">
+               
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="navbar-nav">
+                                <a class="nav-item nav-link" href="index.html">Inicio</a>
+                                <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Géneros</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="clasicos.html">Clásicos</a>
+                                        <a class="dropdown-item" href="comedia.html">Comedia</a>
+                                        <a class="dropdown-item" href="contemporanea.html">Contemporánea</a>
+                                        <a class="dropdown-item" href="ensayo.html">Ensayo</a>
+                                        <a class="dropdown-item" href="psicologia.html">Psicología</a>
+                                        <a class="dropdown-item" href="terror.html">Terror / Suspenso</a>
+                                    </div>
+                                </li>
+                                <a class="nav-item nav-link" href="recomendaciones.html">Recomendaciones</a>
+                                <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+                        </div>
+                    </nav>
+                
+            </div>
+        </nav>
+    </div>
+
+
+    <!--Tarjetas-->
+    <div class="grid-item">
+        <div class="grid-container-generos">
+            <!--Menu lateral-->
+            <div class="grid-item lateral">
+                    <ul id="lateral">
+                        <h3>Terror / Suspenso</h3>
+                        <li><a href="#it">It <span class="font-italic">(Stephen King)</span></a></li>
+                        <li><a href="#elcolor">El Color Que Cayó Del Cielo <span class="font-italic">(H. P. Lovecraft)</span></a></li>
+                        <li><a href="#frankestein">Frankestein <span class="font-italic">(Mary Shelley)</span></a></li>
+                        <li><a href="#elangelcaido">El Ángel Caído <span class="font-italic">(William Hjortsberg)</span></a></li>
+                        <li><a href="#elexorcista">El Exorcista <span class="font-italic">(William Blatty)</span></a></li>
+                        <li><a href="#elextraniocaso">El Extraño Caso del Dr. Jekyll Y Mr. Hyde <span class="font-italic">(Robert Louis Stevenson)</span></a></li>
+                        <li><a href="#losmitos">Los Mitos De Cthulhu <span class="font-italic">(H. P. Lovecraft)</span></a></li>
+                        <li><a href="#dracula">Drácula <span class="font-italic">(Bram Stoker)</span></a></li>
+                        <li><a href="#elsilenciodeloscorderos">El Silencio De Los Corderos <span class="font-italic">(Thomas Harris)</span></a></li>
+                        <li><a href="#narracionesextraordinarias">Narraciones Extraordinarias <span class="font-italic">(Edgar Allan Poe)</span></a></li>
+                        
+                    </ul>
+            </div>
+            
+            <div class="grid-item tarjetas">
+                    <h1 class="text-center">Terror / Suspenso</h1>
+                    <div id="it" class="card text-white   bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">It  <span class="font-italic">(Stephen King)</span></div>
+                         <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/terror-suspenso/it.jpg" alt="it">
+                            <p class="card-text">¿Quién o qué mutila y mata a los niños de un pequeño pueblo norteamericano? ¿Por qué llega cíclicamente el horror a Derry en forma de un payaso siniestro que va sembrando la destrucción a su paso? Esto es lo que se proponen averiguar los protagonistas de esta novela.                   Tras veintisiete años de tranquilidad y lejanía una antigua promesa infantil les hace volver al lugar en el que vivieron su infancia y juventud como una terrible pesadilla. Regresan a Derry para enfrentarse con su pasado y enterrar definitivamente la amenaza que los amargó durante su niñez. Saben que pueden morir, pero son conscientes de que no conocerán la paz hasta que aquella cosa sea destruida para siempre.</p>
+                        </div>
+                    </div>
+                    <div id="elcolor" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Color Que Cayó Del Cielo  <span class="font-italic">(H. P. Lovecraft)</span></div>
+                            <div class="card-body">
+                              <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/terror-suspenso/el-color-que-cayo-del-cielo.jpg" alt="el color que cayo del cielo">
+                              <p class="card-text">La historia está contada en primera persona por un ingeniero encargado de hacer un estudio para edificar un embalse en un remoto paraje llamado Arkham. Allí encuentra un área de terreno denominada «landa maldita» que es distinta a todas y que le causa extrañas y poco agradables sensaciones.</p>
+                        </div>
+                    </div>
+                    <div id="frankestein" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Frankestein <span class="font-italic">(Mary Shelley)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/terror-suspenso/frankestein.GIF" alt="frankestein">
+                            <p class="card-text"></p>La noche del 16 de junio de 1816, después de que Lord Byron y Percy B. Shelley discutieran largamente sobre la posibilidad de descubrir el principuo vital de la naturaleza y transferirlo a un cuerpo inerte, Mary W. Shelley tuvo una memorable pesadilla sobre la visión de un monstruo creado por la ciencia humana. Éste sería el punto de partida de una de las obras más proféticas de la historia de la literatura: Frankenstein o el moderno Prometeo. Un drama romántico sobre la voluntad prometeica del ser humano, decidida a emular y planteando nuevos problemas morales de consecuencias desconocidas. Los recientes avances de la ciencias biológicas, en esta época de clones y transgénicos, nos invitan a recorrer, convirtiendo su obra en un clásico tan vivo y actual como hace casi 200 años. </p>
+                        </div>
+                    </div>
+                    <div id="elangelcaido" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Ángel Caído  <span class="font-italic">(William Hjortsberg)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/terror-suspenso/el-angel-caido.jpg" alt="el angel caido">
+                            <p class="card-text">Harold Angel, un detective buscavidas con oficina en Nueva York es contratado por un misterioso caballero francés de aspecto siniestro para localizar a Johnny Favorite, un popular cantante de fulgurante carrera desaparecido quince años atrás, después de ser ingresado en un hospital en estado vegetativo. Angel rastrea el pasado del cantante desaparecido en busca de una pista sobre su paradero y pronto se verá atrapado en una trama oprimente y peligrosa en la que el vudú y los ritos satánicos parecen jugar un papel relevante. «El ángel caído» se abre como una clásica novela negra de detectives y se va transformando gradualmente en un relato de horror sobrenatural de final memorable. </p>
+                        </div>
+                    </div>
+                    <div id="elexorcista" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Exorcista <span class="font-italic">(William Blatty)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/terror-suspenso/el-exorcista2.jpg" alt="el exorcista">
+                            <p class="card-text">En 1950, mientras estudiaba en la Universidad de Georgetown, William Peter Blatty descubrió la historia de un chico de 12 años llamado Robbie, quién en la década de los cuarenta fue exorcizado por un grupo de sacerdotes en el estado de Washington, luego de ser diagnosticado como un caso de posesión demoníaca. Este suceso fue muy popular en los Estados Unidos en aquella época y el hecho fue cubierto por los medios más importantes del país. Blatty tomó ese hecho y lo convirtió en una fascinante y terrorífica novela, que resultó un best seller instantáneo en 1971. El libro generó su polémica y el fenómeno aumentó dos años después cuando el escritor adaptó su obra para el cine. Ya han pasado casi cuarenta años y la novela sigue viva. </p>
+                        </div>
+                    </div>
+                    <div id="elextraniocaso" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Extraño Caso del Dr. Jekyll Y Mr. Hyde  <span class="font-italic">(Robert Louis Stevenson)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/terror-suspenso/jekill-y-hyde.JPG" alt="el extraño caso del dr jekyil y mr hyde">
+                            <p class="card-text">En sus cuadernos, el Dr. Jekyll confiesa que en su juventud consiguió una poción que lograba transformar a una persona en uno solo de sus polos opuestos. Así, cada vez que Jekyll tomaba la poción, se metamorfoseaban en Hyde, un verdadero asesino y misántropo. Un día, Poole, el mayordomo del Dr. Jekyll, asegura que alguien ha matado a éste tras entrar en el laboratorio. En realidad, el cadáver que encuentran es el de Mr. Hyde, que se ha suicidado. Mientras, el Dr. Jekyll ha desaparecido. Publicada por primera vez en inglés en 1886 trata acerca de un abogado, Gabriel John Utterson, que investiga la extraña relación entre su viejo amigo, el Dr. Henry Jekyll, y el misántropo Edward Hyde. El libro es conocido por ser una representación vívida de la psicopatología correspondiente a un desdoblamiento de personalidad.</p>
+                        </div>
+                    </div>
+                    <div id="losmitos" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Los Mitos De Cthulhu <span class="font-italic">(H. P. Lovecraft)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/terror-suspenso/los-mitos-de-cthulhu.jpg" alt="los mitos de cthulhu">
+                            <p class="card-text">Anticipada por notables precedentes y enriquecida posteriormente por otros escritores, corresponde sin embargo a Howard Phillips Lovecraft el papel más importante en la invención de LOS MITOS DE CTHULHU, ciclo de narraciones de horror cósmico ambientadas en muchos primigenios de caos y espanto. El presente volumen ofrece una completa panorámica del desarrollo de los mitos y reúne las piezas fundamentales en la configuración de ese singular e inquietante universo que remueve en el interior del lector profundos terrores atávicos. Sin duda, una de las antologías más importantes sobre la obra de Lovecraft y los autores de su círculo, muchos de los cuales continuaron la peculiar cosmogonía del escritor de Providence años después de su muerte.</p>
+                        </div>
+                    </div>
+                    <div id="dracula" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Drácula  <span class="font-italic">(Bram Stoker)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/terror-suspenso/dracula.JPG" alt="dracula">
+                            <p class="card-text">Drácula parte de la existencia de Vlad Tepes, un personaje histórico situado en la Rumania del siglo XV, y conocido por su heroicidad contra la invasión otomana, pero también por su crueldad. A partir de esta historia y de no pocas leyendas acerca de él, Bram Stoker escribe esta magistral novela en forma de diarios y cartas que los personajes principales van intercambiándose. Una obra trascendental de la literatura gótica que abrió un nuevo camino en la novela de terror y que instauró la figura del aristócrata transilvano como arquetipo del mal y modelo de seducción perversa, y sus páginas han sido fuente innagotable de innumerables adaptaciones cinematográficas.</p>
+                        </div>
+                    </div>
+                    <div id="elsilenciodeloscorderos" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Silencio De Los Corderos <span class="font-italic">(Thomas Harris)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/terror-suspenso/el-silencio-de-los-corderos.jpg" alt="el silencio de los corderos">
+                            <p class="card-text">A Clarice Starling, joven y ambiciosa estudiante de la academia del FBI, le encomiendan que entreviste a Hannibal Lecter, brillante psiquiatra y despiadado asesino, para conseguir su colaboración en la resolución de un caso de asesinatos en serie. El asombroso conocimiento de Lecter del comportamiento humano y su poderosa personalidad cautivarán de inmediato a Clarice, quien, incapaz de dominarla, establecerá con él una ambigua, inquientante y peligrosa relación. </p>
+                        </div>
+                    </div>
+                    <div id="narracionesextraordinarias" class="card text-white bg-info mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Narraciones Extraordinarias  <span class="font-italic">(Edgar Allan Poe)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/terror-suspenso/narraciones-extraordinarias.jpg" alt="narraciones extraordinarias">
+                            <p class="card-text">Las narraciones extraordinarias del escritor más universal de las letras norteamericanas constituyen un paradigma de originalidad y maestría en el desarrollo del relato en el siglo XIX. En la selección que presenta esta edición, Poe explora la locura, la muerte, el dolor, la crueldad, el instinto asesino, la desintegración física y moral, la soledad, el aislamiento y la duplicidad de la naturaleza humana. En un alarde de dominio de la creación de atmósferas, el escritor perfila la psicología de personajes angustiados por las pesadillas, las fantasías y temores que, sin duda, preludian las contradicciones del ser humano contemporáneo. </p>
+                        </div>
+                    </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+   
+
+
+
+
+    <!--Footer-->
+            
+    <div class="grid-item">
+            <footer>
+                <div class="grid-container piedepagina">
+                    
+                        <ul id="piedepagina">
+                            <a href="index.html"><li>INICIO</li></a>
+                            <a href="nosotros.html"><li>NOSOTROS</li></a>
+                            <a href="recomendaciones.html"><li>RECOMENDACIONES</li></a>
+                            <a href="contacto.html"><li>CONTACTO</li></a>
+                        </ul>
+                        <ul id="piedepagina2">
+                                <li>GÉNEROS</li>
+                                <a href="clasicos.html"><li>Clásicos</li></a>
+                                <a href="comedia.html"><li>Comedia</li></a>
+                                <a href="contemporanea.html"><li>Contemporánea</li></a>
+                                <a href="ensayo.html"><li>Ensayo</li></a>
+                                <a href="psicologia.html"><li>Psicología</li></a>
+                                <a href="terror.html"><li>Terror / Suspenso</li></a>
+                        </ul>
+                        <div id="redes">
+                            <ul>
+                                <p>Seguinos en: </p>
+                                <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a>
+                                <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                            </ul>
+                        </div>
+                        <div id="copyright">
+                            <ul>
+                                <p>Copyright © 2019 Un Mundo De libros</p>
+                            </ul>
+                        </div>
+                        
+                </div>
+            </footer>
+           
+            
+    </div>
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Un Mundo de Libros - Clásicos</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/efectos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquerypp.custom.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+ <!-- Contenedor principal con display grid-->
+ <div class="grid-container-principal">
+
+      <!--Header-->
+      <div class="grid-item">
+        <header>
+            <div class="grid-container">
+                    <div class="grid-item container">
+                        <a href="index.html">
+                            <img class="logo" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                <!--Búsqueda-->
+               
+                    <form class="form-inline">
+                        <input class="form-control" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Buscar</button>
+                    </form>
+                
+            </div>
+        </header>
+    </div>
+    
+    <!--Barra de navegación-->
+    <div class="grid-item">
+        <nav>
+            <!--Navbar de Bootstrap-->
+            <div class="container">
+               
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="navbar-nav">
+                                <a class="nav-item nav-link" href="index.html">Inicio</a>
+                                <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Géneros</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="clasicos.html">Clásicos</a>
+                                        <a class="dropdown-item" href="comedia.html">Comedia</a>
+                                        <a class="dropdown-item" href="contemporanea.html">Contemporánea</a>
+                                        <a class="dropdown-item" href="ensayo.html">Ensayo</a>
+                                        <a class="dropdown-item" href="psicologia.html">Psicología</a>
+                                        <a class="dropdown-item" href="terror.html">Terror / Suspenso</a>
+                                    </div>
+                                </li>
+                                <a class="nav-item nav-link" href="recomendaciones.html">Recomendaciones</a>
+                                <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+                        </div>
+                    </nav>
+                
+            </div>
+        </nav>
+    </div>
+
+
+    <!--Tarjetas-->
+    <div class="grid-item">
+        <div class="grid-container-generos">
+            <!--Menu lateral-->
+            <div class="grid-item lateral">
+                    <ul id="lateral">
+                        <h3>Comedia</h3>
+                        <li><a href="#laconjuradelosnecios">La Conjura de los Necios <span class="font-italic">(John Kennedy Toole)</span></a></li>
+                        <li><a href="#elproyectoesposa">El Proyecto Esposa <span class="font-italic">(Graeme Simsion)</span></a></li>
+                        <li><a href="#wilt">Wilt<span class="font-italic">(Tom Sharpe)</span></a></li>
+                        <li><a href="#cuentossinplumas">Cuentos Sin Plumas <span class="font-italic">(Woody Allen)</span></a></li>
+                        <li><a href="#mafalda">Mafalda <span class="font-italic">(Quino)</span></a></li>
+                        <li><a href="#algosupuestamentedivertido">Algo supuestamente divertido que nunca volveré a hacer  <span class="font-italic">(David Foster Wallace)</span></a></li>
+                        <li><a href="#hollywood">Hollywood <span class="font-italic">(Charles Bukowski)</span></a></li>
+                        <li><a href="#untrabajomuysucio">Un Trabajo muy Sucio <span class="font-italic">(Christopher Moore)</span></a></li>
+                        <li><a href="#sitegustolaescuela">Si te Gustó La Escuela, Te Encantará El Trabajo <span class="font-italic">(Irvine Welsh)</span></a></li>
+                        <li><a href="#sinnoticiasdegurb">Sin Noticias De Gurb <span class="font-italic">(Eduardo Mendoza)</span></a></li>
+                        
+                    </ul>
+            </div>
+            
+            <div class="grid-item tarjetas">
+                    <h1 class="text-center">Comedia</h1>
+                    <div id="laconjuradelosnecios" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                        <div class="card-header text-dark">La Conjura de los Necios <span class="font-italic">(John Kennedy Toole)</span></div>
+                         <div class="card-body">
+                            <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/comedia/la-conjura-de-los-necios.jpeg" alt="la conjura de los necios">
+                            <p class="card-text text-dark">El protagonista de esta novela es uno de los personajes más memorables de la literatura norteamericana: Ignatus Reilly -una mezcla de Oliver Hardy delirante, Don Quijote adiposo y santo Tomás de Aquino, perverso, reunidos en una persona-, que a los treinta años aún vive con su estrafalaria madre, ocupado en escribir una extensa y demoledora denuncia contra nuestro siglo, tan carente de teología y geometría como de decencia y buen gusto, un alegado desquiciado contra una sociedad desquiciada. Por una inesperada necesidad de dinero, se ve 'catapultado en la fiebre de la existencia contemporánea', embarcándose en empleos y empresas de lo más disparatado.</p>
+                        </div>
+                    </div>
+                    <div id="elproyectoesposa" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                        <div class="card-header text-dark">El Proyecto Esposa <span class="font-italic">(Graeme Simsion)</span></div>
+                            <div class="card-body">
+                              <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/comedia/el-proyecto-esposa.jpg" alt="el proyecto esposa">
+                              <p class="card-text text-dark">Don Tillman, profesor de Genética en la universidad, un hombre atrapado en una visión de la realidad extremadamente rígida, nunca ha tenido una segunda cita con una mujer. Sin embargo, conocedor de los estudios que demuestran que los hombres que viven en pareja son más felices que los solteros, se embarca de lleno en lo que bautiza El Proyecto Esposa, cuyo primer paso consiste en redactar un cuestionario de dieciséis páginas para encontrar la pareja perfecta: una mujer puntual, que no fume ni beba y se adapte a su reglamentada existencia. Y entonces conoce a Rosie Jarman, que es una mujer guapa, capaz y luchadora, pero trabaja en un bar, fuma, bebe, y llega siempre tarde: ¡totalmente descartada para el Proyecto Esposa! Ella tiene un proyecto propio, encontrar a su padre biológico, y nuestro excéntrico profesor se encontrará inventando excusas a diario y saltándose sus estrictas reglas con tal de verla y ayudarla poniendo sus conocimientos de genética al servicio de su causa. Don y Rosie se lanzan así a una intrépida, divertidísima aventura que demuestra que el amor no se busca sino que acude a nosotros cuando menos lo esperamos.</p>
+                        </div>
+                    </div>
+                    <div id="wilt" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                        <div class="card-header text-dark">Wilt <span class="font-italic">(Tom Sharpe)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/comedia/wilt.jpeg" alt="wilt">
+                            <p class="card-text text-dark">El protagonista, Henry Wilt, encadenado a un empleo demencial como profesor en un Politécnico, acaba de ver postergado su ascenso una vez más. Mientras, las cosas no marchan mejor en casa, donde su maciza esposa, Eva, se entrega a imprevisibles arrebatos de entusiasmo por la meditación trascendental, el yoga o la última novedad recién olfateada. Un día Eva conoce a los Pringsheim, una original pareja de americanos, que invitan al matrimonio Wilt a una fiesta. En ella se producen algunos pequeños incidentes, y a causa del malestar que le produce la situación, Wilt abandona el lugar, deja allí a Eva y se marcha a dar una vuelta. Cuando regresa a su casa, encuentra una nota de su esposa que le comunica que se va de viaje con los Pringsheim. Como se ha acabado el papel higiénico, utiliza la nota para uso propio arrojándola posteriormente al inodoro. Y comienzan los problemas, Eva ha desaparecido y él no puede demostrar que está con los Pringsheim… </p>
+                        </div>
+                    </div>
+                    <div id="cuentossinplumas" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                        <div class="card-header text-dark">Cuentos sin Plumas <span class="font-italic">(Woody Allen)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/comedia/cuentos-sin-plumas.JPG" alt="cuentos sin plumas">
+                            <p class="card-text text-dark">En este único volumen reunimos los tres libros de cuentos -Cómo acabar de una vez por todas con la cultura, Sin plumas y Perfiles- del gran cineasta, guionista y actor cómico Woody Allen, publicados ya en otra colección. Considerados así, como obra unitaria, estos escritos satíricos reflejan, con la habitual sabiduría de su inteligente humor, la esencia misma de las preocupaciones que acostumbran a obsesionarle : Dios, la muerte, el amor y el sexo. Sigue sorprendiendo la enorme capacidad de Woody Allen para reírse, y hacernos reír, de nuestra propia torpeza en el momento de enfrentarnos precisamente con aquellos problemas que más hondamente nos afectan. Y comprobamos, una vez más, cuán gratificante es recobrar un poco, en este acelerado mundo nuestro, la serenidad que tan saludablemente nos insufla el infrecuente ejercicio del humor. </p>
+                        </div>
+                    </div>
+                    <div id="mafalda" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                        <div class="card-header text-dark">Mafalda <span class="font-italic">(Quino)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/comedia/mafalda.jpg" alt="mafalda">
+                            <p class="card-text text-dark">Quino con cada uno de sus libros, lleva ya muchos añor demostrándonos que los niños son los depositarios de la sabiduría. Lo malo para el mundo es que a medida que crecen van perdiendo el uso de la razón, se les olvida en la escuela lo que sabían al nacer, se casan sin amor, trabajan por dinero, se cepillan los dientes, se cortan las uñas, y al final -convertidos en adultos miserables- no se ahogan en un vaso de agua sino en un plato de sopa. Comprobar esto en cada libro de Quino es lo que más se parece a la felicidad: la quinoterapia. </p>
+                        </div>
+                    </div>
+                    <div id="algosupuestamentedivertido" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                        <div class="card-header text-dark">Algo supuestamente divertido que nunca volveré a hacer <span class="font-italic">(David Foster Wallace)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/comedia/algo-supuestamente-divertido.jpg" alt="algo-supuestamente-divertido">
+                            <p class="card-text text-dark">Foster Wallace elabora en Algo supuestamente divertido que nunca volveré a hacer una postal gigantesca basada en su experiencia en un crucero de lujo por el Caribe. Lo que a primera vista parece ser un simple viaje «para relajarse», en manos de un humor delirante y un cinismo corrosivo acabará convirtiéndose en el horror más absoluto.</p>
+                        </div>
+                    </div>
+                    <div id="hollywood" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                        <div class="card-header text-dark">Hollywood <span class="font-italic">(Charles Bukowski)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/comedia/hollywood.jpeg" alt="hollywood">
+                            <p class="card-text text-dark">Henry Chinaski siempre ha estado en pie de guerra, sin bajar la guardia contra el establishment y sus infinitos tentáculos. Pero en Hollywood no le será nada fácil: Jhon Pinchot, un enloquecido director de cine, se empeña en llevar a la pantalla sus relatos de juventud, o sea la autobiografía de un alcoholico empedernido. Chinaski desconfía del proyecto, aunque acepta a regañadientes escribir el guión de la película.</p>
+                        </div>
+                    </div>
+                    <div id="untrabajomuysucio" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                        <div class="card-header text-dark">Un Trabajo Muy Sucio <span class="font-italic">(Christopher Moore)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/comedia/un-trabajo-muy-sucio.jpg" alt="un trabajo muy sucio">
+                            <p class="card-text text-dark">Charlie Asher es dueño de un edificio en San Francisco, tiene una tienda de objetos de segunda mano y está casado con una mujer guapa e inteligente que lo quiere por ser tan normal. Sí, a Charlie le van bien las cosas... hasta el día en que nace su hija, Sophie. Justo cuando se dispone a irse a casa, ve junto a la cama de su mujer a un extraño que asegura que nadie debería poder verlo. Pero Charlie lo ve y, de allí en adelante, comienzan a suceder cosas muy raras: la gente cae muerta a su alrededor, cuervos gigantes se posan en su edificio y parece que, allá donde va, oye susurros de una presencia siniestra. Sí, Charlie ha sido reclutado para un trabajo desagradable pero muy necesario: la Muerte. Es un trabajo sucio. Pero alguien tiene que hacerlo.</p>
+                        </div>
+                    </div>
+                    <div id="sitegustolaescuela" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                        <div class="card-header text-dark">Si Te gustó La Escuela, Te Encantará El Trabajo <span class="font-italic">(Irvine Welsh)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/comedia/si-te-gusto.jpeg" alt="si te gusto la escuela, te encantara el trabajo">
+                            <p class="card-text text-dark">En el relato que da título al libro, Mickey es un expatriado inglés que tiene un bar en las Canarias, una ex mujer que le hace la vida imposible en Inglaterra y una hija adolescente que llega de improviso. Y Mickey tendrá que hacer verdaderos juegos de prestidigitación con sus diferentes amantes, además de vigilar a dos presuntos gángsters que parecen estar planeando un golpe. A continuación, el lector se encontrará con unas chicas muy esnobs, muy Paris Hilton y muy malas, que se reúnen en un restaurante coreano de novísima cocina. A una de ellas le desaparece el perro y sospecha de su vecino, un enigmático coreano que es, precisamente, el chef del restaurante…</p>
+                        </div>
+                    </div>
+                    <div id="sinnoticiasdegurb"class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                        <div class="card-header text-dark">Sin Noticias De Gurb <span class="font-italic">(Eduardo Mendoza)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/comedia/sin-noticias-de-gurb.jpg" alt="sin noticias de gurb">
+                            <p class="card-text text-dark">Perdido en la Barcelona preolímpica, el extraterrestre Gurb pone al servicio de su supervivencia la extraña cualidad de adoptar el aspecto que le plazca. Se pierde con la apariencia de Marta Sánchez, mientras su compañero alienígena inicia su búsqueda. Por su diario personal vamos conociendo las increíbles peripecias de un extraterrestre en Barcelona. En este relato de carácter paródico y satírico, la invención de Eduardo Mendoza convierte la Barcelona cotidiana en el escenario de una carnavalada tras la cual se revela el verdadero rostro del hombre urbano actual. </p>
+                        </div>
+                    </div>
+            </div>
+             
+        </div>
+
+    </div>
+
+   
+
+
+<!--Footer-->
+        
+<div class="grid-item">
+        <footer>
+            <div class="grid-container piedepagina">
+                
+                    <ul id="piedepagina">
+                        <a href="index.html"><li>INICIO</li></a>
+                        <a href="nosotros.html"><li>NOSOTROS</li></a>
+                        <a href="recomendaciones.html"><li>RECOMENDACIONES</li></a>
+                        <a href="contacto.html"><li>CONTACTO</li></a>
+                    </ul>
+                    <ul id="piedepagina2">
+                            <li>GÉNEROS</li>
+                            <a href="clasicos.html"><li>Clásicos</li></a>
+                            <a href="comedia.html"><li>Comedia</li></a>
+                            <a href="contemporanea.html"><li>Contemporánea</li></a>
+                            <a href="ensayo.html"><li>Ensayo</li></a>
+                            <a href="psicologia.html"><li>Psicología</li></a>
+                            <a href="terror.html"><li>Terror / Suspenso</li></a>
+                    </ul>
+                    <div id="redes">
+                        <ul>
+                        <p>Seguinos en: </p>
+                        <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                    </ul>
+                    </div>
+                    <div id="copyright">
+                        <ul>
+                        <p>Copyright © 2019 Un Mundo De libros</p>
+                    </ul>
+                    </div>
+                    
+            </div>
+            </footer>
+        </div>
+        
+    </div>
+    
+</div>
+</body>
+</html>

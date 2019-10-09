@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Un Mundo de Libros - Clásicos</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/efectos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquerypp.custom.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+ <!-- Contenedor principal con display grid-->
+ <div class="grid-container-principal">
+
+      <!--Header-->
+      <div class="grid-item">
+        <header>
+            <div class="grid-container">
+                    <div class="grid-item container">
+                        <a href="index.html">
+                            <img class="logo" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                <!--Búsqueda-->
+                
+                    <form class="form-inline">
+                        <input class="form-control" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Buscar</button>
+                    </form>
+               
+            </div>
+        </header>
+    </div>
+    
+    <!--Barra de navegación-->
+    <div class="grid-item">
+        <nav>
+            <!--Navbar de Bootstrap-->
+            <div class="container">
+               
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="navbar-nav">
+                                <a class="nav-item nav-link" href="index.html">Inicio</a>
+                                <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Géneros</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="clasicos.html">Clásicos</a>
+                                        <a class="dropdown-item" href="comedia.html">Comedia</a>
+                                        <a class="dropdown-item" href="contemporanea.html">Contemporánea</a>
+                                        <a class="dropdown-item" href="ensayo.html">Ensayo</a>
+                                        <a class="dropdown-item" href="psicologia.html">Psicología</a>
+                                        <a class="dropdown-item" href="terror.html">Terror / Suspenso</a>
+                                    </div>
+                                </li>
+                                <a class="nav-item nav-link" href="recomendaciones.html">Recomendaciones</a>
+                                <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+                        </div>
+                    </nav>
+                
+            </div>
+        </nav>
+    </div>
+
+
+    <!--Tarjetas-->
+    <div class="grid-item">
+        <div class="grid-container-generos">
+            <!--Menu lateral-->
+            <div class="grid-item lateral">
+                    <ul id="lateral">
+                        <h3>Clásicos</h3>
+                        <li><a href="#crimenycastigo">Crimen Y Castigo <span class="font-italic">(Fiodor Dostoievski)</span></a></li>
+                        <li><a href="#alicia">Alicia En El País De Las Maravillas <span class="font-italic">(Lewis Carroll)</span></a></li>
+                        <li><a href="#elretratodedoriangray">El retrato de Dorian Gray <span class="font-italic">(Oscar Wilde)</span></a></li>
+                        <li><a href="#mobydick">Moby Dick <span class="font-italic">(Herman Melville)</span></a></li>
+                        <li><a href="#romeoyjulieta">Romeo Y Julieta <span class="font-italic">(William Shakespeare)</span></a></li>
+                        <li><a href="#elprincipito">El Principito <span class="font-italic">(Antoine de Saint-Exupery)</span></a></li>
+                        <li><a href="#elloboestepario">El Lobo Estepario <span class="font-italic">(Hermann Hesse)</span></a></li>
+                        <li><a href="#viajealcentrodelatierra">Viaje Al Centro De La Tierra <span class="font-italic">(Julio Verne)</span></a></li>
+                        <li><a href="#donquijote">El Ingenioso Hidalgo Don Quijote de la Mancha <span class="font-italic">(Miguel De Cervantes Saavedra)</span></a></li>
+                        <li><a href="#asangrefria">A Sangre Fría <span class="font-italic">(Truman Capote)</span></a></li>
+                        
+                    </ul>
+            </div>
+            
+            <div class="grid-item tarjetas">
+                    <h1 class="text-center">Clásicos</h1>
+                    <div id="crimenycastigo" class="card text-white bg-danger mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Crimen y Castigo <span class="font-italic">(Fiodor Dostoievsky)</span></div>
+                         <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/clasicos/crimen-y-castigo.png" alt="crimen y castigo">
+                            <p class="card-text text-center">Crimen y castigo (1866), considerada por la crítica como la primera obra maestra de Dostoievski, es un profundo análisis psicológico de su protagonista, el joven estudiante Raskolnikov, cuya firme creencia en que los fines humanitarios justifican la maldad le conduce al asesinato de un usurero petersburgués. Pero, desde que comete el crimen, la culpabilidad será una pesadilla constante con la que el estudiante será incapaz de convivir. El estilo enfebrecido y compasivo de Dostoievski sigue con maestría única los recovecos de las contradictorias emociones del estudiante y refleja la lucha extrema que libra con su conciencia mientras deambula por las calles de San Petersburgo.</p>
+                        </div>
+                    </div>
+                    <div id="alicia" class="card text-white bg-danger mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Alicia en el País de las Maravillas <span class="font-italic">(Lewis Carroll)</span></div>
+                            <div class="card-body">
+                              <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/clasicos/alicia.jpg" alt="alicia en el pais de las maravillas">
+                              <p class="card-text">Estás a punto de entrar en el mundo de Alicia, el más extraño y asombroso, disparatado e insólito que hayas conocido y que jamás vas a olvidar. En este mundo, los gatos desaparecen sonrientes, las reinas tienen ejércitos de naipes, los conejos visten chaleco y te apremian para que los sigas. Y si los sigues, caerás por el agujero de su madriguera… Hasta el País de las Maravillas.Allí, las reglas que conocemos no funcionan; en el País de las Maravillas todo tiene su propia lógica. La hora del té no acaba nunca, Tiempo es un señor que se enfada si no sigues el compás cuando cantas y las lágrimas pueden llegar a formar un mar si justo en aquel momento tu cuerpo se encoge hasta ser diminuto. Desde su publicación, Alicia en el país de las maravillas ha fascinado a lectores como tú.</p>
+                        </div>
+                    </div>
+                    <div id="elretratodedoriangray" class="card text-white bg-danger mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El retrato de Dorian Gray <span class="font-italic">(Oscar Wilde)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/clasicos/el-retrato-de-dorian-gray.jpg" alt="el retrato de dorian gray">
+                            <p class="card-text">El protagonista, Dorian Gray, llega a Inglaterra tras la muerte de un familiar suyo. Allí, conocerá a Basil Hallward, es un artista que está impresionado por la belleza de Dorian Gray. Basil comienza a encapricharse con él pintando su retrato, creyendo que esta belleza es la responsable de la nueva forma de su arte. Charlando en el jardín de Basil, en un descanso, Dorian conoce a Lord Henry Wotton, un amigo de Basil, que dirá frases filosóficas tópicas sobre la vida, y que le insistirá en que lo único que merece la pena es la belleza y la juventud y  que la vida debe arder con la llama más intensa. </p>
+                        </div>
+                    </div>
+                    <div id="mobydick" class="card text-white bg-danger mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Moby Dick <span class="font-italic">(Herman Melville)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/clasicos/moby-dick.jpg" alt="moby dick">
+                            <p class="card-text">Moby-Dick, considerada como la gran epopeya en prosa del mundo occidental contemporáneo. Concebida por Herman Melville como respuesta norteamericana a la gran literatura europea de finales del siglo XVIII y principios del XIX, «Moby-Dick» recoge la tradición romántica y gótica dando forma a un épico poema en singular prosa que ha acabado por ocupar en Estados Unidos el puesto de gran novela nacional. La historia de la obsesiva persecución de una ballena por el Capitán Ahab se ha convertido en ítem imprescindible de la cultura universal. El lector no encontrará obra más filosófica, tratado sobre el mar más erudito y, algo no menos importante, novela de aventuras más épica que la presente. </p>
+                        </div>
+                    </div>
+                    <div id="romeoyjulieta" class="card text-white bg-danger mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Romeo y Julieta <span class="font-italic">(William Shakespeare)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/clasicos/romeo-y-julieta.jpg" alt="romeo y julieta">
+                            <p class="card-text">En Verona, dos jóvenes enamorados, de dos familias enemigas, son víctimas de una situación de odio y violencia que ni desean ni pueden remediar. En una de esas tardes de verano en que el calor «inflama la sangre», Romeo, recién casado en secreto con su amada Julieta, mata al primo de ésta. A partir de ahí Shakespeare desencadena la tragedia y precipita los acontecimientos, guiados por el azar y la fatalidad. </p>
+                        </div>
+                    </div>
+                    <div id="elprincipito" class="card text-white bg-danger mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Principito <span class="font-italic">(Antoine de Saint-Exupery)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/clasicos/el-principito.jpg" alt="el principito">
+                            <p class="card-text">Es un cuento poético que viene acompañado de ilustraciones hechas con acuarelas por el mismo Saint-Exupéry.11​ En él, un piloto se encuentra perdido en el desierto del Sahara después de que su avión sufriera una avería, pero para su sorpresa, es allí donde conoce a un pequeño príncipe proveniente de otro planeta. La historia tiene una temática filosófica, donde se incluyen críticas sociales dirigidas a la «extrañeza» con la que los adultos ven las cosas. Estas críticas a las cosas «importantes» y al mundo de los adultos van apareciendo en el libro a lo largo de la narración. A pesar de que es considerado un libro infantil por la forma en la que se encuentra escrito, también posee observaciones profundas sobre la vida y la naturaleza humana.</p>
+                        </div>
+                    </div>
+                    <div id="elloboestepario" class="card text-white bg-danger mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Lobo Estepario <span class="font-italic">(Hermann Hesse)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/clasicos/el-lobo-estepario.jpg" alt="el lobo estepario">
+                            <p class="card-text">Es una de las lectura más impactantes y que más suelen recordar quienes la emprenden. Por un lado, la historia que narra es un alucinante viaje a los temores, angustias y miedos a los que se ve abocado el hombre contemporáneo. Pero por otro, la pericia narrativa de Hesse llega en esta novela a su punto culminante, pues mediante la combinación de voces narrativas y de puntos de vista nos ofrece diversas dimensiones de un personaje que intenta vivir al margen de las convenciones sociales</p>
+                        </div>
+                    </div>
+                    <div id="viajealcentrodelatierra" class="card text-white bg-danger mb-3" style="max-width: 30rem;">
+                        <div class="card-header">Viaje al Centro de la Tierra <span class="font-italic">(Julio Verne)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/clasicos/viaje-al-centro-de-la-tierra.jpg" alt="viaje al centro de la tierra">
+                            <p class="card-text">El profesor Lidenbrock, que une a su condición de verdadero sabio una terquedad sin límites, descifra un viejo pergamino devolviendo pacientemente su sentido a los incomprensibles signos que en él se contienen. El descifrado de aquel texto arrastrará inevitablemente al propio Lidenbrok, a su joven sobrino Axel y al valeroso cazador Hans Bjelke hasta el mismísimo centro de la Tierra, poblado de animales antediluvianos, tempestades terribles y otros riesgos sin mayor importancia.</p>
+                        </div>
+                    </div>
+                    <div id="donquijote" class="card text-white bg-danger mb-3" style="max-width: 30rem;">
+                        <div class="card-header">El Ingenioso Hidalgo Don Quijote de la Mancha <span class="font-italic">(Miguel de Cervantes Saavedra)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/clasicos/don-quijote.jpg" alt="don quijote de la mancha">
+                            <p class="card-text">Narra las aventuras de Alonso Quijano, un hidalgo pobre que de tanto leer novelas de caballería acaba enloqueciendo y creyendo ser un caballero andante, nombrándose a sí mismo como don Quijote de la Mancha. Sus intenciones son ayudar a los pobres y desfavorecidos, y lograr el amor de la supuesta Dulcinea del Toboso, que es en realidad es una campesina llamada Aldonza Lorenzo. Decide nombrar a Sancho Panza, un empleado suyo, su escudero.</p>
+                        </div>
+                    </div>
+                    <div id="asangrefria" class="card text-white bg-danger mb-3" style="max-width: 30rem;">
+                        <div class="card-header">A Sangre Fría <span class="font-italic">(Truman Capote)</span></div>
+                        <div class="card-body">
+                            <img class="card-img-bottom img-fluid img-responsive mx-auto d-block" src="img/clasicos/a-sangre-fria.GIF" alt="a sangre fria">
+                            <p class="card-text">El 15 de noviembre de 1959, en un pueblecito de Kansas, los cuatro miembros de la familia Clutter fueron salvajemente asesinados en su casa. Los crímenes eran, aparentemente, inmotivados, y no se encontraron claves que permitieran identificar a los asesinos. Cinco años después, Dick Hickcock y Perry Smith fueron ahorcados como culpables de las muertes. A partir de estos hechos, y tras realizar largas y minuciosas investigaciones con los protagonistas reales de la historia, Truman Capote dio un vuelco a su carrera de narrador y escribió 'A sangre fría', la novela que le consagró definitivamente como uno de los grandes de la literatura norteamericana del siglo xx. </p>
+                        </div>
+                    </div>
+            </div>
+             
+        </div>
+
+    </div>
+
+   
+
+
+
+
+<!--Footer-->
+        
+<div class="grid-item">
+        <footer>
+            <div class="grid-container piedepagina">
+                
+                    <ul id="piedepagina">
+                        <a href="index.html"><li>INICIO</li></a>
+                        <a href="nosotros.html"><li>NOSOTROS</li></a>
+                        <a href="recomendaciones.html"><li>RECOMENDACIONES</li></a>
+                        <a href="contacto.html"><li>CONTACTO</li></a>
+                    </ul>
+                    <ul id="piedepagina2">
+                            <li>GÉNEROS</li>
+                            <a href="clasicos.html"><li>Clásicos</li></a>
+                            <a href="comedia.html"><li>Comedia</li></a>
+                            <a href="contemporanea.html"><li>Contemporánea</li></a>
+                            <a href="ensayo.html"><li>Ensayo</li></a>
+                            <a href="psicologia.html"><li>Psicología</li></a>
+                            <a href="terror.html"><li>Terror / Suspenso</li></a>
+                    </ul>
+                    <div id="redes">
+                        <ul>
+                        <p>Seguinos en: </p>
+                        <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                    </ul>
+                    </div>
+                    <div id="copyright">
+                        <ul>
+                        <p>Copyright © 2019 Un Mundo De libros</p>
+                    </ul>
+                    </div>
+                    
+            </div>
+            </footer>
+        </div>
+        
+</div>
+    
+
+</div>
+</body>
+</html>

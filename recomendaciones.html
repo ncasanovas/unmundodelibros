@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Un Mundo de Libros - Recomendaciones</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/efectos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquerypp.custom.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+<!-- Contenedor principal con display grid-->
+<div class="grid-container-principal">
+
+      <!--Header-->
+      <div class="grid-item">
+        <header>
+            <div class="grid-container">
+                    <div class="grid-item container">
+                        <a href="index.html">
+                            <img class="logo" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                <!--Búsqueda-->
+                
+                    <form class="form-inline">
+                        <input class="form-control" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Buscar</button>
+                    </form>
+                
+            </div>
+        </header>
+    </div>
+    
+    
+        <!--Barra de navegación-->
+        <div class="grid-item">
+            <nav>
+                <!--Navbar de Bootstrap-->
+                <div class="container">
+                   
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="navbar-nav">
+                                    <a class="nav-item nav-link" href="index.html">Inicio</a>
+                                    <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Géneros</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="clasicos.html">Clásicos</a>
+                                            <a class="dropdown-item" href="comedia.html">Comedia</a>
+                                            <a class="dropdown-item" href="contemporanea.html">Contemporánea</a>
+                                            <a class="dropdown-item" href="ensayo.html">Ensayo</a>
+                                            <a class="dropdown-item" href="psicologia.html">Psicología</a>
+                                            <a class="dropdown-item" href="terror.html">Terror / Suspenso</a>
+                                        </div>
+                                    </li>
+                                    <a class="nav-item nav-link" href="recomendaciones.html">Recomendaciones</a>
+                                    <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+                            </div>
+                        </nav>
+                    
+                </div>
+            </nav>
+        </div>
+
+    <!--Tarjetas-->
+    <div class="grid-item">
+        <div class="grid-container-generos">
+             <!--Menu lateral-->
+             <div class="grid-item lateral">
+                    <ul id="lateral">
+                        <h3>Recomendaciones</h3>
+                        <li><a href="#1984">1984 <span class="font-italic">(George Orwell)</span></a></li>
+                        <li><a href="#lamujerrota">La Mujer Rota <span class="font-italic">(Simone De Beauvoir)</span></a></li>
+                        <li><a href="#cien-anios-de-soledad">Cien Años de Soledad <span class="font-italic">(Gabriel García Márquez)</span></a></li>
+                        <li><a href="#netochka">Netochka Nezvanova <span class="font-italic">(Fiodor Dostoievski)</span></a></li>
+                        <li><a href="#sobreheroes">Sobre Héroes Y Tumbas <span class="font-italic">(Sobre Héroes Y Tumbas)</span></a></li>
+                       
+                        
+                    </ul>
+            </div>
+            
+            <div class="grid-item tarjetas">
+                <h1 class="text-center">Recomendaciones</h1>
+                <div id="1984" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                    <div class="card-header text-dark">1984 <span class="font-italic">(George Orwell)</span></div>
+                     <div class="card-body">
+                        <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/recomendados/1984.jpg" alt="1984">
+                        <p class="card-text text-dark">Inquietante interpretación futurista basada en la crítica a los totalitarismos y a la opresión del poder, situada en 1984 en una sociedad inglesa dominada por un sistema de "colectivismo burocrático" controlada por el Gran Hermano. Londres, 1984: Winston Smith decide rebelarse ante un gobierno totalitario que controla cada uno de los movimientos de sus ciudadanos y castiga incluso a aquellos que delinquen con el pensamiento. Consciente de las terribles consecuencias que puede acarrear la disidencia, Winston se une a la ambigua Hermandad por mediación del líder O’Brien. Paulatinamente, sin embargo, nuestro protagonista va comprendiendo que ni la Hermandad ni O’Brien son lo que aparentan, y que la rebelión, al cabo, quizá sea un objetivo inalcanzable. Por su magnífico análisis del poder y de las relaciones y dependencias que crea en los individuos, 1984 es una de las novelas más inquietantes y atractivas de este siglo.</p>
+                    </div>
+                </div>
+                <div id="lamujerrota" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                    <div class="card-header text-dark">La Mujer Rota <span class="font-italic">(Simone De Beauvoir)</span></div>
+                        <div class="card-body">
+                          <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/recomendados/la-mujer-rota.jpg" alt="la mujer rota">
+                          <p class="card-text text-dark">
+                            Se escuchan aquí las voces de tres mujeres, en los tres relatos que incluye esta obra (LA MUJER ROTA, LA EDAD DE LA DISCRECIÓN y MONÓLOGO), que se debaten con palabras en situaciones sin salida: la edad, la soledad, la agonía del amor. Metáforas, a la vez, de esa parte de fracaso que todo destino humano depara. A pesar del tiempo que ha transcurrido desde que se escribió esta obra, refleja muy bien la situación actual de la mujer en nuestra sociedad, que ha variado poco en muchos aspectos.</p>
+                    </div>
+                </div>
+                <div id="cien-anios-de-soledad" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                    <div class="card-header text-dark">Cien Años de Soledad <span class="font-italic">(Gabriel García Márquez)</span></div>
+                    <div class="card-body">
+                        <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/recomendados/cien-anios-de-soledad.jpg" alt="cien anios de soledad">
+                        <p class="card-text text-dark">«Muchos años después, frente al pelotón de fusilamiento, el coronel Aureliano Buendía había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo.» Con estas palabras empieza una novela ya legendaria en los anales de la literatura universal, una de las aventuras literarias más fascinantes de nuestro s iglo. Millones de ejemplares de Cien años de soledad leídos en todas las lenguas y el premio Nobel de Literatura coronando una obra que se había abierto paso «boca a boca» -como gusta decir el escritor- son la más palpable demostración de que la aventura fabulosa de la familia Buendía-Iguarán, con sus milagros, fantasías, obsesiones, tragedias, incestos, adulterios, rebeldías, descubrimientos y condenas, representaba al mismo tiempo el mito y la historia, la tragedia y el amor del mundo entero. </p>
+                    </div>
+                
+                </div>
+                <div id="netochka" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                    <div class="card-header text-dark">Netochka Nezvanova <span class="font-italic">(Fiodor Dostoievski)</span></div>
+                    <div class="card-body">
+                        <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/recomendados/netochka-nezvanova.jpg" alt="netochka nezvanova">
+                        <p class="card-text text-dark">La obra nos refiere la niñez (en un primer momento) de Niétoschka, con un padre violinista que anda en estado de embriaguez constante, y una madre que pierde su dote casándose con su marido y que muere en la más terrible miseria. A pesar de la actitud de su padre, Niétoschka lo quiere y lo va a recordar durante el resto de su historia que continúa tras la muerte de sus dos padres y la adopción en la casa del príncipe y de la tutoría de Alejandra Mijailovna. Con esta última terminará su relato al descubrir una carta que causará problemas con su marido Piotr Alexandrovitch. </p>
+                    </div>
+                
+                </div>
+                <div id="sobreheroes" class="card text-white bg-warning mb-3" style="max-width: 30rem;">
+                    <div class="card-header text-dark">Sobre Héroes Y Tumbas <span class="font-italic">(Ernesto Sábato)</span></div>
+                    <div class="card-body">
+                        <img class="card-img-botom img-fluid img-responsive mx-auto d-block" src="img/recomendados/sobre-heroes-y-tumbas_ernesto-sabato.jpg" alt="sobre heroes y tumbas">
+                        <p class="card-text text-dark">Una novela donde Ernesto Sábato plantea toda su carga ideológica. Centrada en el personaje de Martín, un hombre en busca de sí mismo, el escritor argentino expone su particular visión sobre la soledad, tema clave en su narrativa. Cercana a ciertas obras del existencialismo francés despertó la admiración de Camus. </p>
+                    </div>
+                
+                </div>
+            </div>
+           
+        </div>
+
+    </div>
+
+   
+
+
+
+
+    <!--Footer-->
+            
+    <div class="grid-item">
+            <footer>
+                <div class="grid-container piedepagina">
+                    
+                        <ul id="piedepagina">
+                            <a href="index.html"><li>INICIO</li></a>
+                            <a href="nosotros.html"><li>NOSOTROS</li></a>
+                            <a href="recomendaciones.html"><li>RECOMENDACIONES</li></a>
+                            <a href="contacto.html"><li>CONTACTO</li></a>
+                        </ul>
+                        <ul id="piedepagina2">
+                                <li>GÉNEROS</li>
+                                <a href="clasicos.html"><li>Clásicos</li></a>
+                                <a href="comedia.html"><li>Comedia</li></a>
+                                <a href="contemporanea.html"><li>Contemporánea</li></a>
+                                <a href="ensayo.html"><li>Ensayo</li></a>
+                                <a href="psicologia.html"><li>Psicología</li></a>
+                                <a href="terror.html"><li>Terror / Suspenso</li></a>
+                        </ul>
+                        <div id="redes">
+                            <ul>
+                                <p>Seguinos en: </p>
+                                <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a>
+                                <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                            </ul>
+                        </div>
+                        <div id="copyright">
+                            <ul>
+                                <p>Copyright © 2019 Un Mundo De libros</p>
+                            </ul>
+                        </div>
+                        
+                </div>
+            </footer>
+           
+            
+    </div>
+    
+</div>
+</body>
+</html>

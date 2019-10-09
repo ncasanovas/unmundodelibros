@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Un Mundo de Libros - Clásicos</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/efectos.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquerypp.custom.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+<!-- Contenedor principal con display grid-->
+<div class="grid-container-principal">
+
+      <!--Header-->
+      <div class="grid-item">
+        <header>
+            <div class="grid-container">
+                    <div class="grid-item container">
+                        <a href="index.html">
+                            <img class="logo" src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                <!--Búsqueda-->
+                
+                    <form class="form-inline">
+                        <input class="form-control" type="search" placeholder="Buscar..." aria-label="Search">
+                        <button class="btn btn-dark" type="submit">Buscar</button>
+                    </form>
+               
+            </div>
+        </header>
+    </div>
+    
+    <!--Barra de navegación-->
+    <div class="grid-item">
+        <nav>
+            <!--Navbar de Bootstrap-->
+            <div class="container">
+               
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="navbar-nav">
+                                <a class="nav-item nav-link" href="index.html">Inicio</a>
+                                <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Géneros</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="clasicos.html">Clásicos</a>
+                                        <a class="dropdown-item" href="comedia.html">Comedia</a>
+                                        <a class="dropdown-item" href="contemporanea.html">Contemporánea</a>
+                                        <a class="dropdown-item" href="ensayo.html">Ensayo</a>
+                                        <a class="dropdown-item" href="psicologia.html">Psicología</a>
+                                        <a class="dropdown-item" href="terror.html">Terror / Suspenso</a>
+                                    </div>
+                                </li>
+                                <a class="nav-item nav-link" href="recomendaciones.html">Recomendaciones</a>
+                                <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+                        </div>
+                    </nav>
+                
+            </div>
+        </nav>
+    </div>
+
+
+   <div id="nosotros">
+       <h1>Nosotros</h1>
+       <p>Somos una página realizada con mucho amor a los libros. Encontrarás los mejores libros de cada género y unas recomendaciones personales.
+           Si quieres agregar algún libro a la lista te recomendamos ir al formulario de Contacto.
+           ¡Esperamos que disfrutes la estadía!
+       </p>
+       <img id="librosnosotros" class="rounded mx-auto d-block img-fluid img-responsive" src="img/nosotros.jpg" alt="libros">
+   </div>
+
+    <!--Footer-->
+            
+    <div class="grid-item">
+            <footer>
+                <div class="grid-container piedepagina">
+                    
+                        <ul id="piedepagina">
+                            <a href="index.html"><li>INICIO</li></a>
+                            <a href="nosotros.html"><li>NOSOTROS</li></a>
+                            <a href="recomendaciones.html"><li>RECOMENDACIONES</li></a>
+                            <a href="contacto.html"><li>CONTACTO</li></a>
+                        </ul>
+                        <ul id="piedepagina2">
+                                <li>GÉNEROS</li>
+                                <a href="clasicos.html"><li>Clásicos</li></a>
+                                <a href="comedia.html"><li>Comedia</li></a>
+                                <a href="contemporanea.html"><li>Contemporánea</li></a>
+                                <a href="ensayo.html"><li>Ensayo</li></a>
+                                <a href="psicologia.html"><li>Psicología</li></a>
+                                <a href="terror.html"><li>Terror / Suspenso</li></a>
+                        </ul>
+                        <div id="redes">
+                            <ul>
+                                <p>Seguinos en: </p>
+                                <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square"></i></a>
+                                <a href="https://es-la.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram"></i></a>
+                            </ul>
+                        </div>
+                        <div id="copyright">
+                            <ul>
+                                <p>Copyright © 2019 Un Mundo De libros</p>
+                            </ul>
+                        </div>
+                        
+                </div>
+            </footer>
+            
+            
+    </div>
+    
+
+</div>
+</body>
+</html>
